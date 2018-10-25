@@ -15,7 +15,7 @@ body { margin: 0px; padding: 0px; font-size: 12px; }
 #uxc-3 { background: #EAEDF1; padding: 90px 0px; }
 #uxc-3 h1 { margin: 0px; text-align: center; font: 500 36px/43px Rubik, sans-serif; color: #3f3f3f; }
 .uxc3-container { margin: auto; width: 1025px; margin-top: 80px; }
-.uxc3-box { width: 340px; height: 270px; padding: 80px; background: white; display: inline-block; margin-bottom: 25px; vertical-align: top; position: relative; }
+.uxc3-box { width: 340px; height: 270px; padding: 80px; background: white; display: inline-block; margin-bottom: 25px; vertical-align: top; position: relative; border-radius: 7px; }
 .uxc3-box:nth-child(odd) { margin-right: 22px; }
 .uxc3-box h2 { margin: 0px; font: 500 36px/43px Rubik, sans-serif; color: #008DD3; }
 .uxc3-box h3 { margin: 0px; font: 500 20px/24px Rubik, sans-serif; color: #3f3f3f; }
