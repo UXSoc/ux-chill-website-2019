@@ -1,0 +1,77 @@
+body { margin: 0px; }
+a { text-decoration: none; color: #3f3f3f; }
+@font-face {
+font-family: 'futura heavy bt';
+src: url('https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/futura-heavy-bt_19003-webfont.woff2') format('woff2'),
+url('https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/futura-heavy-bt_19003-webfont.woff') format('woff'),
+url('https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/futura-heavy-bt_19003-webfont.ttf') format('truetype');
+    font-style: normal;
+}
+
+
+.uxchill-2 { background: #008DD3; padding: 46px 0px;  }
+.uxchill-2 h1 { color: #f3f3f3; font-family: futura heavy bt; font-size: 8vw; line-height: 115px; text-align: center; margin: 0px; margin-bottom: 46px;  }
+
+.uxc2-boxes { margin: auto; width: 1200px; text-align: center; }
+.box { width: 250px; height: 250px; display: inline-block; margin-right: 46px; margin-bottom: 46px; position: relative; }
+.box h2 { margin: 0px; font: 700 1.5vw/1.5vw roboto; text-transform: uppercase; color: #3f3f3f; position: absolute; top: 20px; left: 20px;   }
+.box h3 { margin: 0px; color: #3f3f3f; font: italic 300 1vw/1vw roboto; letter-spacing: 1px; position: absolute; top: 45px; left: 20px; }
+.box a { position: absolute; bottom: 10px; right: 20px; color: white; font-size: 2vw; }
+
+.uxchill-3 { background: #f3f3f3; height: 1024px; position: relative; width: 100%; }
+.uxc3sec { width: 33%; position: relative; display: inline-block; text-align: center; padding: 155px 0px; }
+.uxc3s-1 { background-color: white; }
+.uxc3s-2 { }
+.uxc3s-3 { background-color: white; }
+.uxc3s-img { width: 465px; margin: auto; height: 340px; position: relative; background-position: center center; overflow: hidden; }
+.uxc3s-img h1 { margin: 0px; position: absolute; bottom: 0px; font: 6.5vw/4.5vw futura heavy bt; text-transform: uppercase; color: white;  }
+.uxc3s-imgtri { width: 0px; height: 0px; position: absolute; top: 340px; left: 0px; border-bottom: 340px solid rgba(255,255,255,0.4); border-right: 465px solid transparent;  -webkit-transition: 0.2s all ease-in-out; -moz-transition: 0.2s all ease-in-out; transition: 0.2s all ease-in-out; }
+.uxc3sec:hover .uxc3s-imgtri { top: 0px; }
+
+.uxc3sec h2 { margin: 0px; margin: 40px 20px 10px 20px; font: 700 3vw roboto; text-transform: uppercase; color: #5f5f5f; }
+.uxc3sec h3 { margin: 0px; font: 1.5vw roboto; color: #ababab; text-transform: uppercase; }
+.uxc3sec p { text-align: justify; font: 1.2vw/1.4vw roboto; color: #5f5f5f; margin: 40px 110px; }
+.uxc3s-button { width: 270px; height: 78px; background: #008DD3; margin: auto; box-shadow: 5px 5px 0px rgba(0,0,0,0.25); font: 1.4vw/78px futura heavy bt; text-transform: uppercase; color: white; -webkit-transition: 0.2s all ease-in-out; -moz-transition: 0.2s all ease-in-out; transition: 0.2s all ease-in-out; position: relative; top: 0px; left: 0px; }
+.uxc3s-button:hover { top: -2px; left: -2px; box-shadow: 8px 8px 0px rgba(0,0,0,0.25);  }
+
+.uxc3-img { width: 240px; height: 304px; background-image: url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/isometric-3rd-part.png); position: absolute; bottom: -163px; z-index: 3; }
+
+.uxchill-4 { background: #008dd3; width: 100%; height: 683px; position: relative; overflow: hidden; }
+.uxchill-4 h1 { margin: 0px; margin-top: 200px; margin-left: 200px; margin-right: 300px; font: 4vw/4vw roboto; color: white; }
+.uxc4-reg { width: 26vw; height: 7.5vw; border:5px solid white; text-align: center; font: 2.5vw/7.5vw 'roboto'; text-transform: uppercase; color: white; letter-spacing: 2px; margin-left: 200px; margin-top: 50px; -webkit-transition: 0.3s all ease-in-out; -moz-transition: 0.3s all ease-in-out; transition: 0.3s all ease-in-out; }
+.uxc4-reg:hover { background: white; color: #008dd3; }
+.uxc4-img2 { width: 531px; height: 376px; background-image: url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/hand-holding-a-smartphone-flat-vector.png); position: absolute; bottom: 0px; right: -50px;  }
+.uxc4-img1 { width: 331px; height: 578px; background-image:url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/isometric%20workspace-02.png); position: absolute; bottom: -100px; right: 0px; }
+
+
+/*** tablets ***/
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+
+}
+
+@media only screen
+  and (min-device-width: 1025px)
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+
+/*** PHONES ***/
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
