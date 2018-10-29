@@ -10,7 +10,7 @@ a { text-decoration: none; color: inherit; }
 background: -webkit-linear-gradient(top, rgba(255,255,255,1) 20%, rgba(255,255,255,0) 100%);
 background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0.9) 70%,rgba(255,255,255,0) 100%); */
 
-.headlogo { background-image: url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/Logo.png); background-size: 188px; width: 188px; height: 50px; position: absolute; top: 30px; left: 60px;  }
+.headlogo { background-image: url("./assets/Logo.png"); background-size: 188px; width: 188px; height: 50px; position: absolute; top: 30px; left: 60px;  }
 .navlinks { position: absolute; top: 50px; left: 250px; }
 .navlinks a { transition: 0.5s;
 	font-size: 16px;
@@ -23,9 +23,9 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,
 	background-color:#008dd3; box-shadow: 0px 4px 8px rgba(169, 169, 169, 0.3); border-radius: 7px; width: 148px; text-align: center; padding: 16px 0px; font: 400 16px/19px Rubik; cursor:pointer;
 	border:none; position: absolute; top: 30px; right: 60px; }
 
-.uxc1-img1 { background-image: url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/pic1.png); width: 565px; height: 714px; position: absolute; left: 50px; top: 0px; }
-.uxc1-img2 { background-image: url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/Asset18.png); width: 398px; height: 286px; position: absolute; right: 75px; bottom: 75px;  }
-.uxc1-img3 { background-image: url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/Asset11.png); width: 562px; height: 427px; position: absolute; right: -122px; top: 31px;  }
+.uxc1-img1 { background-image: url("./assets/pic1.png"); width: 565px; height: 714px; position: absolute; left: 50px; top: 0px; }
+.uxc1-img2 { background-image: url("./assets/Asset18.png"); width: 398px; height: 286px; position: absolute; right: 75px; bottom: 75px;  }
+.uxc1-img3 { background-image: url("./assets/Asset11.png"); width: 562px; height: 427px; position: absolute; right: -122px; top: 31px;  }
 
 .uxc1-center { width: 700px; margin: auto; height: 151px; margin-top: 160px; position: relative; top: 50px; }
 
@@ -68,7 +68,7 @@ position: absolute; bottom: 0px; right: 0px;
 .uxchill-footer { position: absolute; bottom: 35px; right: 35px; height: 72px; }
 .uxchill-footer h4 { color: #ababab; opacity: 0.7; font: 500 15px/18px roboto; margin: 0px; display: inline-block; position: relative; top: -30px; }
 
-.sqlogo { display: inline-block; background: url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/biglogo.png); background-size: 72px; display: inline-block;  margin-left: 10px;
+.sqlogo { display: inline-block; background: url("./assets/biglogo.png"); background-size: 72px; display: inline-block;  margin-left: 10px;
 	height: 72px;
 	width: 72px;
 }
@@ -97,7 +97,7 @@ position: absolute; bottom: 0px; right: 0px;
 .uxc3-box h4 { margin: 0px; font: 400 14px/17px Rubik, sans-serif; color: #ababab; margin-top: 15px; }
 .uxc3-box p { margin: 0px; margin-top: 15px; font: 400 14px/17px Rubik, sans-serif; color: #5f5f5f; }
 .box-button { font: 400 16px/16px Rubik, sans-serif; color: white; text-align: center; background: #008DD3; width: 168px; padding: 16px 0px; border-radius: 7px; box-shadow: 0px 4px 8px rgba(169, 169, 169, 0.3); position: absolute; bottom: 80px; left: 80px; }
-.uxc3-img1 { width: 307px; height: 795px; background-image: url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/Asset17.png); position: absolute; top: -170px; }
+.uxc3-img1 { width: 307px; height: 795px; background-image: url("./assets/Asset17.png"); position: absolute; top: -170px; }
 
 
 #uxc-4 { position: relative; background: #008DD3; height: 680px; }
@@ -105,13 +105,13 @@ position: absolute; bottom: 0px; right: 0px;
 .uxc4-button { margin-top: 80px; background: white; width: 168px; height: 16px; font: 500 16px/16px Rubik, sans-serif; color: #008DD3; text-align: center; padding: 16px 0px; border-radius: 7px; box-shadow: 0px 4px 8px #007CC2; margin-top: 60px; }
 .uxc4-button-cont { margin: auto; width: 45%; padding-right: 200px; text-align: left; }
 
-.uxc4-img2 { width: 199px; height: 303px; background-image: url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/Asset15.png); position: absolute; top: -105px; right: 30px;  }
-.uxc4-img1 { width: 798px; height: 579px; background-image:url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/Asset13.png); position: absolute; bottom: -20px; right: 0px; }
-.uxc4-img3 { width: 216px; height: 348px; background-image: url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/Asset12.png); position: absolute; top: 280px; left: 40px; }
+.uxc4-img2 { width: 199px; height: 303px; background-image: url("./assets/Asset15.png"); position: absolute; top: -105px; right: 30px;  }
+.uxc4-img1 { width: 798px; height: 579px; background-image:url("./assets/Asset13.png"); position: absolute; bottom: -20px; right: 0px; }
+.uxc4-img3 { width: 216px; height: 348px; background-image: url("./assets/Asset12.png"); position: absolute; top: 280px; left: 40px; }
 
 
 #uxc-5 { background: white; padding: 90px 0px; }
-.uxc5-logo { background-image: url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/Logo.png); width: 278px; height: 66px; display: inline-block; margin-right: 130px; vertical-align: top; }
+.uxc5-logo { background-image: url("./assets/Logo.png"); width: 278px; height: 66px; display: inline-block; margin-right: 130px; vertical-align: top; }
 .uxc5-follow { border-right: 2px solid rgba(196,196,196,0.4); width: 150px; padding-right: 90px; display: inline-block; margin-right: 90px; vertical-align: top; }
 #uxc-5 h1 { margin: 0px; font: 500 24px/28px Rubik, sans-serif; color: #3f3f3f; }
 #uxc-5 p { margin: 0px; margin: 15px 0px; font: 400 14px/18px Rubik, sans-serif; color: #5f5f5f; }
