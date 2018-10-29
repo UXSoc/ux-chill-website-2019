@@ -1,10 +1,17 @@
 body { margin: 0px; padding: 0px; font-size: 12px; overflow-x: hidden; }
-a { text-decoration: none; cursor: pointer; }
-#uxc-1 { height: 720px; position: relative; background: white; }
-#navbar { width: 100%; position: fixed; top: 0px; left: 0px; z-index: 999; height: 100px }
+a { text-decoration: none; color: inherit; }
 
-.headlogo { background-image: url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/Logo.png); background-size: 188px; width: 188px; height: 50px; position: absolute; top: 50px; left: 60px;  }
-.navlinks { position: absolute; top: 65px; left: 250px; }
+#uxc-1 { height: 720px; position: relative; background: white; }
+#navbar { width: 100%; position: fixed; top: 0px; left: 0px; z-index: 99; height: 115px; background: white;
+
+}
+
+/* background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 20%, rgba(255,255,255,0) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0.9) 70%,rgba(255,255,255,0) 100%); */
+
+.headlogo { background-image: url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/Logo.png); background-size: 188px; width: 188px; height: 50px; position: absolute; top: 30px; left: 60px;  }
+.navlinks { position: absolute; top: 50px; left: 250px; }
 .navlinks a { transition: 0.5s;
 	font-size: 16px;
 	color:#3B3E42;
@@ -12,9 +19,9 @@ a { text-decoration: none; cursor: pointer; }
 	font-family: Rubik;
 	text-decoration: none; }
 
-.regbutton { color:white; cursor: pointer;
+.regbutton { color:white;
 	background-color:#008dd3; box-shadow: 0px 4px 8px rgba(169, 169, 169, 0.3); border-radius: 7px; width: 148px; text-align: center; padding: 16px 0px; font: 400 16px/19px Rubik; cursor:pointer;
-	border:none; position: absolute; top: 50px; right: 60px; }
+	border:none; position: absolute; top: 30px; right: 60px; }
 
 .uxc1-img1 { background-image: url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/pic1.png); width: 565px; height: 714px; position: absolute; left: 50px; top: 0px; }
 .uxc1-img2 { background-image: url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/Asset18.png); width: 398px; height: 286px; position: absolute; right: 75px; bottom: 75px;  }
@@ -31,9 +38,9 @@ a { text-decoration: none; cursor: pointer; }
 	display: inline-block;
 	color: #3F3F3F; }
 .uxc1-center h2 {
-	font-family: Roboto; font-weight: 400;
-	line-height: 107px;
-	font-size: 130px;
+	font-family: Nunito Sans; font-weight: 400;
+	line-height: 83px;
+	font-size: 110px;
 	color: #3F3F3F;
 	position: absolute; top: 0px; right: 0px; margin: 0px;
 }
@@ -41,7 +48,7 @@ a { text-decoration: none; cursor: pointer; }
 .uxc1-line {
 	background-color: #008DD3;
 	height: 15px;
-	width:412px;
+	width:400px;
 	margin: 0px; position: absolute; bottom: 43px; right: 0px;
 }
 
@@ -67,7 +74,7 @@ position: absolute; bottom: 0px; right: 0px;
 }
 
 
-#uxc-2 { background-color: #008DD3; background-image: url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/image.png); background-size: ; background-repeat: no-repeat; background-position: bottom center; text-align: center; padding: 60px 0px 120px 0px; ; }
+#uxc-2 { background: #008DD3; text-align: center; padding: 60px 0px 120px 0px; ; }
 #uxc-2 h1 { margin: 0px; color: white; font-family: 'Rubik', sans-serif; font-weight: 500; font-size: 3em;  margin-bottom: 50px;  }
 .uxc2-container { width: 1040px; margin: auto; }
 
@@ -77,10 +84,10 @@ position: absolute; bottom: 0px; right: 0px;
 .uxc2-panel h2 { margin: 0px; color: #008DD3; font: 500 16px/23px Rubik, sans-serif;  }
 .uxc2-panel h3 { margin: 0px; margin: 10px 0px; font: 500 16px/23px Rubik, sans-serif; color: #3f3f3f; }
 .uxc2-panel p { margin: 0px; font: 400 12px/20px Rubik, sans-serif; color: #8D959D; }
-.panel-button { cursor: pointer; padding: 16px 20px; width: 100px; height: 17px; background: #008DD3; text-align: center; color: #f3f3f3; font: 14px/17px Rubik, sans-serif; border-radius: 7px; box-shadow: 0px 4px 8px rgba(169, 169, 169, 0.3); position: absolute; bottom: 30px; left: 30px; }
+.panel-button { padding: 16px 20px; width: 100px; height: 17px; background: #008DD3; text-align: center; color: #f3f3f3; font: 14px/17px Rubik, sans-serif; border-radius: 7px; box-shadow: 0px 4px 8px rgba(169, 169, 169, 0.3); position: absolute; bottom: 30px; left: 30px; }
 
 
-#uxc-3 { background: #EAEDF1; padding: 90px 0px; }
+#uxc-3 { background: #EAEDF1; padding: 90px 0px; position: relative; }
 #uxc-3 h1 { margin: 0px; text-align: center; font: 500 36px/43px Rubik, sans-serif; color: #3f3f3f; }
 .uxc3-container { margin: auto; width: 1025px; margin-top: 80px; }
 .uxc3-box { width: 340px; height: 270px; padding: 80px; background: white; display: inline-block; margin-bottom: 25px; vertical-align: top; position: relative; }
@@ -89,23 +96,70 @@ position: absolute; bottom: 0px; right: 0px;
 .uxc3-box h3 { margin: 0px; font: 500 20px/24px Rubik, sans-serif; color: #3f3f3f; }
 .uxc3-box h4 { margin: 0px; font: 400 14px/17px Rubik, sans-serif; color: #ababab; margin-top: 15px; }
 .uxc3-box p { margin: 0px; margin-top: 15px; font: 400 14px/17px Rubik, sans-serif; color: #5f5f5f; }
-.box-button { cursor: pointer; font: 400 16px/16px Rubik, sans-serif; color: white; text-align: center; background: #008DD3; width: 168px; padding: 16px 0px; border-radius: 7px; box-shadow: 0px 4px 8px rgba(169, 169, 169, 0.3); position: absolute; bottom: 80px; left: 80px; }
+.box-button { font: 400 16px/16px Rubik, sans-serif; color: white; text-align: center; background: #008DD3; width: 168px; padding: 16px 0px; border-radius: 7px; box-shadow: 0px 4px 8px rgba(169, 169, 169, 0.3); position: absolute; bottom: 80px; left: 80px; }
+.uxc3-img1 { width: 307px; height: 795px; background-image: url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/Asset17.png); position: absolute; top: -170px; }
 
 
 #uxc-4 { position: relative; background: #008DD3; height: 680px; }
 .uxc4-head { padding-top: 200px; margin: auto; font: 500 40px/57px Rubik, sans-serif; color: white; width: 45%; padding-right: 200px; }
-.uxc4-button { cursor: pointer; margin-top: 80px; background: white; width: 168px; height: 16px; font: 500 16px/16px Rubik, sans-serif; color: #008DD3; text-align: center; padding: 16px 0px; border-radius: 7px; box-shadow: 0px 4px 8px #007CC2; margin-top: 60px; }
+.uxc4-button { margin-top: 80px; background: white; width: 168px; height: 16px; font: 500 16px/16px Rubik, sans-serif; color: #008DD3; text-align: center; padding: 16px 0px; border-radius: 7px; box-shadow: 0px 4px 8px #007CC2; margin-top: 60px; }
 .uxc4-button-cont { margin: auto; width: 45%; padding-right: 200px; text-align: left; }
 
-.uxc4-img2 { width: 531px; height: 376px; background-image: url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/hand-holding-a-smartphone-flat-vector.png); position: absolute; bottom: 0px; right: -50px;  }
-.uxc4-img1 { width: 331px; height: 578px; background-image:url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/isometric%20workspace-02.png); position: absolute; bottom: -100px; right: 0px; }
-.uxc4-img3 { width: 240px; height: 304px; background-image: url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/isometric-3rd-part.png); position: absolute; top: -150px; z-index: 3; }
+.uxc4-img2 { width: 199px; height: 303px; background-image: url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/Asset15.png); position: absolute; top: -105px; right: 30px;  }
+.uxc4-img1 { width: 798px; height: 579px; background-image:url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/Asset13.png); position: absolute; bottom: -20px; right: 0px; }
+.uxc4-img3 { width: 216px; height: 348px; background-image: url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/Asset12.png); position: absolute; top: 280px; left: 40px; }
+
 
 #uxc-5 { background: white; padding: 90px 0px; }
-.uxc5-logo { cursor: pointer; background-image: url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/Logo.png); width: 278px; height: 66px; display: inline-block; margin-right: 130px; vertical-align: top; }
+.uxc5-logo { background-image: url(https://raw.githubusercontent.com/UXSoc/ux-chill-website/master/Logo.png); width: 278px; height: 66px; display: inline-block; margin-right: 130px; vertical-align: top; }
 .uxc5-follow { border-right: 2px solid rgba(196,196,196,0.4); width: 150px; padding-right: 90px; display: inline-block; margin-right: 90px; vertical-align: top; }
 #uxc-5 h1 { margin: 0px; font: 500 24px/28px Rubik, sans-serif; color: #3f3f3f; }
 #uxc-5 p { margin: 0px; margin: 15px 0px; font: 400 14px/18px Rubik, sans-serif; color: #5f5f5f; }
 .uxc5-contact { display: inline-block; width: 150px; }
 
 .uxc5-contain { width: 1000px; margin: auto; }
+
+/* modals */
+.modal-content {
+display: none;
+}
+
+#fade-background {
+position: fixed;
+_position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0,0,0,0.8); z-index: 100;
+}
+#modal-window {
+position: fixed;
+top: 10%; left: 20%;
+width: 900px; height: 580px; z-index: 101;
+}
+
+#spmodal { background: white; margin: auto; width: 900px; height: 580px; background: white; vertical-align: middle; position: relative; }
+.sp-img { width: 350px; height: 420px; overflow: hidden; position: absolute; top: 80px; left: 80px;   }
+.sp-img  img { width: 350px; height: 420px; }
+.sp-right { width: 350px; height: 400px; top: 100px; right: 80px; position: absolute; }
+.sp-right h1 { margin: 0px; font: 500 21px/30px Rubik; color: #008DD3; text-align: left; }
+.sp-right h2 { margin: 0px; font: 500 16px/19px Rubik; color: #3F3F3F; text-align: left; margin: 16px 0px; }
+.sp-right p { margin: 0px; font: 400 14px/25px Rubik; color: #8D959D; text-align: left;  max-height: 225px; overflow: hidden;}
+
+.speaker-button { color:white;
+	background-color:#008dd3; box-shadow: 0px 4px 8px rgba(169, 169, 169, 0.3); border-radius: 7px; width: 148px; text-align: center; padding: 16px 0px; font: 400 16px/19px Rubik; cursor:pointer; text-decoration: none; position: absolute; bottom: 20px;  }
+
+
+#talkmodal { background: white; margin: auto; width: 800px; height: 400px; background: white; vertical-align: middle; position: relative; text-align: center; padding: 70px 50px; }
+#talkmodal h1 { margin: 0px; color: #008DD3; font: 500 36px/43px Rubik; }
+#talkmodal h2 { margin: 0px; color: black; font: 400 18px/21px Rubik; text-transform: uppercase; margin: 16px 0px; }
+#talkmodal p { font: 400 16px/38px Rubik; color: #707070; text-align: left; width: 350px; margin: 0px; margin: auto; }
+#talkmodal p b { font: inherit; display: inline-block; width: 80px; text-align: right; margin-right: 30px; }
+.talkregbutton { color:white;
+	background-color:#008dd3; box-shadow: 0px 4px 8px rgba(169, 169, 169, 0.3); border-radius: 7px; width: 136px; text-align: center; padding: 16px 0px; font: 400 14px/17px Rubik; cursor:pointer; text-decoration: none; margin: auto; position: absolute; bottom: 50px; left: 382px; }
+
+
+	/* .closebutton { position: absolute; top: 15px; right: 15px; }
+	.closebutton span { color: #ababab; font-size: 30px}
+	<div class="closebutton"><span class="lnr lnr-cross-circle"></span></div> **/
