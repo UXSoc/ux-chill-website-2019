@@ -27,7 +27,7 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,
 .uxc1-img2 { background-image: url("./assets/Asset18.png"); width: 398px; height: 286px; position: absolute; right: 75px; bottom: 75px;  }
 .uxc1-img3 { background-image: url("./assets/Asset11.png"); width: 562px; height: 427px; position: absolute; right: -122px; top: 31px;  }
 
-.uxc1-center { width: 700px; margin: auto; height: 151px; margin-top: 160px; position: relative; top: 50px; }
+.uxc1-center { width: 670px; margin: auto; height: 151px; margin-top: 160px; position: relative; top: 50px; }
 
 .uxc1-center h1 { margin: 0px; font-family: Roboto;
 	font-style: normal;
@@ -48,7 +48,7 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,
 .uxc1-line {
 	background-color: #008DD3;
 	height: 15px;
-	width:400px;
+	width:375px;
 	margin: 0px; position: absolute; bottom: 43px; right: 0px;
 }
 
@@ -135,11 +135,13 @@ background: rgba(0,0,0,0.8); z-index: 100;
 }
 #modal-window {
 position: fixed;
-top: 10%; left: 20%;
-width: 900px; height: 580px; z-index: 101;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+height: 580px; z-index: 101;
 }
 
-#spmodal { background: white; margin: auto; width: 900px; height: 580px; background: white; vertical-align: middle; position: relative; }
+#spmodal { background: white; margin: auto; width: 900px; height: 580px; background: white; margin: auto; position: relative; }
 .sp-img { width: 350px; height: 420px; overflow: hidden; position: absolute; top: 80px; left: 80px;   }
 .sp-img  img { width: 350px; height: 420px; }
 .sp-right { width: 350px; height: 400px; top: 100px; right: 80px; position: absolute; }
@@ -150,14 +152,13 @@ width: 900px; height: 580px; z-index: 101;
 .speaker-button { color:white;
 	background-color:#008dd3; box-shadow: 0px 4px 8px rgba(169, 169, 169, 0.3); border-radius: 7px; width: 148px; text-align: center; padding: 16px 0px; font: 400 16px/19px Rubik; cursor:pointer; text-decoration: none; position: absolute; bottom: 20px;  }
 
-
-#talkmodal { background: white; margin: auto; width: 800px; height: 400px; background: white; vertical-align: middle; position: relative; text-align: center; padding: 70px 50px; }
+#talkmodal { background: white; margin: auto; width: 650px; height: 400px; background: white; vertical-align: middle; position: relative; text-align: center; padding: 70px 50px; }
 #talkmodal h1 { margin: 0px; color: #008DD3; font: 500 36px/43px Rubik; }
 #talkmodal h2 { margin: 0px; color: black; font: 400 18px/21px Rubik; text-transform: uppercase; margin: 16px 0px; }
 #talkmodal p { font: 400 16px/38px Rubik; color: #707070; text-align: left; width: 350px; margin: 0px; margin: auto; }
 #talkmodal p b { font: inherit; display: inline-block; width: 80px; text-align: right; margin-right: 30px; }
 .talkregbutton { color:white;
-	background-color:#008dd3; box-shadow: 0px 4px 8px rgba(169, 169, 169, 0.3); border-radius: 7px; width: 136px; text-align: center; padding: 16px 0px; font: 400 14px/17px Rubik; cursor:pointer; text-decoration: none; margin: auto; position: absolute; bottom: 50px; left: 382px; }
+	background-color:#008dd3; box-shadow: 0px 4px 8px rgba(169, 169, 169, 0.3); border-radius: 7px; width: 136px; text-align: center; padding: 16px 0px; font: 400 14px/17px Rubik; cursor:pointer; text-decoration: none; margin: auto; position: absolute; bottom: 50px; left: 307px; }
 
 
 	/* .closebutton { position: absolute; top: 15px; right: 15px; }
