@@ -1,0 +1,55 @@
+@media screen and (max-width: 320px) {
+  body {
+  	left: 0;
+  	top: 0;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    overflow-x: hidden;
+  }
+
+  #uxc-2 {
+    background: #008DD3;
+    width: 100%;
+    text-align: center;
+    padding: 60px 30px 240px 0px;
+  }
+
+  .uxc2-container, .uxc3-container {
+    width: 100%;
+    margin: auto;
+  	display:flex;
+    flex-direction: column;
+  }
+
+  .uxc2-panel,.uxc2-panel:first-child, .uxc2-panel:nth-child(4) {
+    width: 282px;
+    display: inline-block;
+    vertical-align: top;
+    background: white;
+    height: 619px;
+    padding: 15px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: left;
+    position: relative;
+  }
+
+  .uxc3-box {
+    width: 279px;
+    height: 357px;
+    padding: 15px;
+    background: white;
+    display: inline-block;
+    margin-bottom: 25px;
+    vertical-align: top;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+  }
+
+}
