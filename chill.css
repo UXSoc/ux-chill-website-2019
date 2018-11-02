@@ -1,5 +1,4 @@
-@media screen and (min-width: 1280px) {
-	body {
+body {
 		left: 0;
 		top: 0;
 	  margin: 0px;
@@ -76,9 +75,10 @@
 	  font: 400 16px/19px Rubik;
 	  cursor: pointer;
 	  border: none;
-	  position: absolute;
+	  position: fixed;
 	  top: 30px;
 	  right: 60px;
+		z-index: 100;
 	}
 
 	.uxc1-img1 {
@@ -650,5 +650,3 @@
 	/* .closebutton { position: absolute; top: 15px; right: 15px; }
 		.closebutton span { color: #ababab; font-size: 30px}
 		<div class="closebutton"><span class="lnr lnr-cross-circle"></span></div> **/
-
-}
