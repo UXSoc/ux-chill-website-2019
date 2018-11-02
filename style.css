@@ -1,4 +1,6 @@
-@media screen and (max-width: 320px) {
+@media screen
+and (min-width: 320px)
+and (max-width: 450px) {
   body {
   	left: 0;
   	top: 0;
@@ -7,7 +9,6 @@
     font-size: 12px;
     overflow-x: hidden;
   }
-
 
 #uxc-1 { height: 570px; }
 .uxc1-img1 { width: 220px; height: 92px;
@@ -30,7 +31,9 @@ left: 0px; top: -60px;
 .uxc1-text { width: 230px; font: 400 12px/19px Rubik;
 margin: 0px; margin-top: 80px; padding-left: 40px; }
 
-.regbutton { top: 350px; position: absolute; right: 135px; }
+.regbutton { top: 350px; position: absolute; /* right: 135px; */
+  right: auto;
+left: 40px; }
 .uxchill-footer h4 { display: none; }
 .uxchill-footer { right: 190px;display: none; }
 .sqlogo { width: 50px; height: 50px; background-size: 50px;
