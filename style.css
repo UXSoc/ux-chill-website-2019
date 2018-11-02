@@ -20,7 +20,13 @@
     letter-spacing: 1.2px;
     color: #f3f3f3;
     margin: 0px !important;
-    padding: 44px 75px 44px 75px;
+  }
+
+  .h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 
   #uxc-2 {
@@ -127,19 +133,67 @@
     margin: 0px !important;
 	}
 
-
   .uxc3-box {
-    width: 279px;
-    height: 357px;
-    padding: 15px;
+    padding: 40px 24px 40px 24px;
+    margin: 0 20px 32px 20px;
     background: white;
-    display: inline-block;
-    margin-bottom: 25px;
-    vertical-align: top;
-    position: relative;
-    margin-left: 5px;
-    margin-right: 5px;
     border-radius: 10px;
+  }
+
+  .uxc3-box h2 {
+	  margin: 0px;
+	  font-weight: 500px;
+    font-size: 32px;
+    margin-bottom: 16px;
+    font-family: 'Rubik', sans-serif;
+	  color: #008DD3;
+    text-align: left;
+	}
+
+  .uxc3-box h3 {
+	  margin: 0px;
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+    text-align: left;
+	  color: #3f3f3f;
+	}
+
+  .uxc3-box h4 {
+	  margin: 0px;
+	  font: 400 18px 'Rubik', sans-serif;
+	  color: #ababab;
+    text-align: left;
+    margin-top: 16px;
+	}
+
+  .uxc3-box p {
+	  margin: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    color: #5f5f5f;
+    margin-top: 16px;
+	}
+
+  .uxc3-box a {
+    font-family: 'Rubik';
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #f3f3f3;
+    text-decoration: none;
+	}
+
+  .box-button {
+    width: 120px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(169, 169, 169, 0.3);
+    background-color: #008dd3;
+    padding: 16px 24px 16px 24px;
+    margin-top: 24px;
   }
 
 }
