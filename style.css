@@ -9,26 +9,57 @@
     overflow-x: hidden;
   }
 
-  #navbar {
+  #navbar { display: none; }
+
+  .mobilenav {
     width: 100vw;
 	  position: fixed;
 	  top: 0px;
 	  left: 0px;
 	  z-index: 99;
-	  height: 15vw;
+	  height: 20vw;
 	  background: white;
+    display: block;
+    box-shadow: 0px 4px 8px rgba(169,169,169,0.3);
   }
 
-  nav .navlinks, nav .headlogo {
+  .navlogo img { width: 45vw; margin-left: 2vw;}
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .mobilenav #mobilenavlinks {
     display: none;
   }
 
-  .fa-bars {
+  /* Style navigation menu links */
+  .mobilenav a { display: block;
+  padding: 14px 16px;}
+  #mobilenavlinks a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
     display: block;
+    background: rgba(169,169,169,0.8);
+    font: 400 14px/19px Rubik;
+  transition: 0.3s all ease-in-out;
+  }
+
+  /* Add a grey background color on mouse-over */
+  #mobilenavlinks a:hover {
+    background-color: #008dd3;
+  }
+
+  .mobilenav a.icon {
+    background: white;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0; width: 12vw; height: 11vw;
+  }
+
+  .fa-bars {
     display: flex;
     justify-content:flex-end;
-    margin: 16px;
-    font-size: 24px;
+    font-size: 24px; line-height: 12vw;
+    padding-right: 2vw;
     color: #ABABAB;
     cursor: pointer;
   }
@@ -93,7 +124,7 @@
   }
 
   .uxc1-center {
-    width: 195px;
+    width: 197px;
     height: 70px;
     margin: 0px;
     margin-top: 140px;
@@ -102,7 +133,7 @@
 
   .uxc1-center h1 {
     font-size: 50px;
-    line-height: 59px;
+    line-height: 56px;
   }
 
   .uxc1-center h2 {

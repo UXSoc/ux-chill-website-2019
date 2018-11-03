@@ -14,6 +14,19 @@
   <link rel="stylesheet" href="chill.css">
   <link rel="stylesheet" href="style.css">
   <title>UX&Chill</title>
+
+
+      <script>
+      function myFunction() {
+        var x = document.getElementById("mobilenavlinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      </script>
+      
 </head>
 
 <body id="home">
@@ -22,7 +35,6 @@
     <nav id="navbar">
       <a href="#home">
         <div class="headlogo"></div>
-        <i class="fa fa-bars"></i>
       </a>
       <div class="navlinks">
         <a href="#home">Home</a>
@@ -32,6 +44,19 @@
       </div>
     </nav>
 
+
+<div class="mobilenav">
+  <a href="#home" class="navlogo"><img src="./assets/Logo.png" /></a>
+  <div id="mobilenavlinks">
+    <a href="#uxc-2">Speakers</a>
+    <a href="#uxc-3">Schedules</a>
+    <a href="#uxc-5">Contact</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
     <a href="/">
       <div class="regbutton">Register Now</div>
