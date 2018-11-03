@@ -270,6 +270,10 @@
     text-decoration: none;
   }
 
+  .uxc3-box:nth-child(1) {
+	  margin-left: auto;
+	}
+
   .box-button {
     width: 120px;
     border-radius: 7px;
