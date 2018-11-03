@@ -1,51 +1,124 @@
-@media screen
-and (min-width: 320px)
-and (max-width: 450px) {
+@media screen and (min-width: 320px) and (max-width: 450px) {
+
   body {
-  	left: 0;
-  	top: 0;
+    left: 0;
+    top: 0;
     margin: 0px;
     padding: 0px;
     font-size: 12px;
     overflow-x: hidden;
   }
 
-#uxc-1 { height: 570px; }
-.uxc1-img1 { width: 220px; height: 92px;
-  background-size: 300px;
-left: 0px; top: -60px;
-}
+  #navbar {
+    width: 100vw;
+	  position: fixed;
+	  top: 0px;
+	  left: 0px;
+	  z-index: 99;
+	  height: 15vw;
+	  background: white;
+  }
 
-.uxc1-img3 {
-  width: 240px; height: 198px;
-  background-size: 261px;
-  right: -50px; top: 205px;
-}
+  nav .navlinks, nav .headlogo {
+    display: none;
+  }
 
-.uxc1-img2 {
-  width: 188px; height: 135px;
-  background-size: 188px;
-  right: 20px; bottom: 30px;
-}
+  .fa-bars {
+    display: block;
+    display: flex;
+    justify-content:flex-end;
+    margin: 16px;
+    font-size: 24px;
+    color: #ABABAB;
+    cursor: pointer;
+  }
 
-.uxc1-text { width: 230px; font: 400 12px/19px Rubik;
-margin: 0px; margin-top: 80px; padding-left: 40px; }
+  #uxc-1 {
+    height: 570px;
+  }
 
-.regbutton { top: 350px; position: absolute; /* right: 135px; */
-  right: auto;
-left: 40px; }
-.uxchill-footer h4 { display: none; }
-.uxchill-footer { right: 190px;display: none; }
-.sqlogo { width: 50px; height: 50px; background-size: 50px;
-}
+  .uxc1-img1 {
+    width: 220px;
+    height: 92px;
+    background-size: 300px;
+    left: 0px;
+    top: -60px;
+  }
 
-.uxc1-center { width: 195px; height: 70px;
-  margin: 0px; margin-top: 140px;
-margin-left: 50px; }
-.uxc1-center h1 { font-size: 50px; line-height: 59px; }
-.uxc1-center h2 { font-size: 36px; line-height: 43px; }
-.uxc1-line { height: 5px; width: 122px; bottom: 25px; }
-.uxc1-center h3 { font-size: 14px; }
+  .uxc1-img3 {
+    width: 240px;
+    height: 198px;
+    background-size: 261px;
+    right: -50px;
+    top: 205px;
+  }
+
+  .uxc1-img2 {
+    width: 188px;
+    height: 135px;
+    background-size: 188px;
+    right: 20px;
+    bottom: 30px;
+  }
+
+  .uxc1-text {
+    width: 230px;
+    font: 400 12px/19px Rubik;
+    margin: 0px;
+    margin-top: 80px;
+    padding-left: 40px;
+  }
+
+  .regbutton {
+    top: 350px;
+    position: absolute;
+    /* right: 135px; */
+    right: auto;
+    left: 40px;
+  }
+
+  .uxchill-footer h4 {
+    display: none;
+  }
+
+  .uxchill-footer {
+    right: 190px;
+    display: none;
+  }
+
+  .sqlogo {
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+  }
+
+  .uxc1-center {
+    width: 195px;
+    height: 70px;
+    margin: 0px;
+    margin-top: 140px;
+    margin-left: 50px;
+  }
+
+  .uxc1-center h1 {
+    font-size: 50px;
+    line-height: 59px;
+  }
+
+  .uxc1-center h2 {
+    font-size: 36px;
+    line-height: 43px;
+  }
+
+  .uxc1-line {
+    height: 5px;
+    width: 122px;
+    bottom: 25px;
+  }
+
+  .uxc1-center h3 {
+    font-size: 14px;
+  }
 
   #uxc-2 h1 {
     width: 167px;
@@ -76,12 +149,15 @@ margin-left: 50px; }
 
   .uxc2-container, .uxc3-container {
     width: 100%;
-  	display:flex;
+    display: flex;
     flex-direction: column;
   }
 
+  .uxc3-container {
+    margin-top: 0px;
+  }
 
-  .uxc2-panel,.uxc2-panel:first-child, .uxc2-panel:nth-child(4) {
+  .uxc2-panel, .uxc2-panel:first-child, .uxc2-panel:nth-child(4) {
     border-radius: 7px;
     background-color: #ffffff;
     margin: 0 19px 32px 19px;
@@ -91,7 +167,8 @@ margin-left: 50px; }
 
   .panel-img {
     width: 234px;
-    height: 176px; background-size: 234px;
+    height: 176px;
+    background-size: 234px;
   }
 
   .uxc2-panel h2 {
@@ -103,7 +180,7 @@ margin-left: 50px; }
     line-height: 1.41;
     letter-spacing: normal;
     color: #008dd3;
-	}
+  }
 
   .uxc2-panel h3 {
     font-family: 'Rubik';
@@ -115,7 +192,7 @@ margin-left: 50px; }
     letter-spacing: normal;
     color: #3f3f3f;
     text-align: left;
-	}
+  }
 
   .uxc2-panel p {
     font-family: 'Rubik';
@@ -127,7 +204,7 @@ margin-left: 50px; }
     letter-spacing: normal;
     color: #8d959d;
     text-align: justify;
-	}
+  }
 
   .uxc2-panel a {
     font-family: 'Rubik';
@@ -142,16 +219,13 @@ margin-left: 50px; }
   }
 
   .panel-button {
-   width: 80px;
-   border-radius: 7px;
-   box-shadow: 0 4px 8px 0 rgba(169, 169, 169, 0.3);
-   background-color: #008dd3;
-   padding: 16px 32px 16px 32px;
-   bottom: 35px; left: 25px;
-	}
-
-  .uxc3-img1 {
-
+    width: 80px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(169, 169, 169, 0.3);
+    background-color: #008dd3;
+    padding: 16px 32px 16px 32px;
+    bottom: 35px;
+    left: 25px;
   }
 
   #uxc-3 {
@@ -172,7 +246,7 @@ margin-left: 50px; }
     letter-spacing: 1.2px;
     color: #3F3F3F;
     margin: 0px !important;
-	}
+  }
 
   .uxc3-box {
     padding: 40px 24px 40px 24px;
@@ -183,39 +257,39 @@ margin-left: 50px; }
   }
 
   .uxc3-box h2 {
-	  margin: 0px;
-	  font-weight: 500px;
+    margin: 0px;
+    font-weight: 500px;
     font-size: 32px;
     margin-bottom: 16px;
     font-family: 'Rubik', sans-serif;
-	  color: #008DD3;
+    color: #008DD3;
     text-align: left;
-	}
+  }
 
   .uxc3-box h3 {
-	  margin: 0px;
+    margin: 0px;
     font-size: 24px;
     font-family: 'Rubik', sans-serif;
     text-align: left;
-	  color: #3f3f3f;
-	}
+    color: #3f3f3f;
+  }
 
   .uxc3-box h4 {
-	  margin: 0px;
-	  font: 400 18px 'Rubik', sans-serif;
-	  color: #ababab;
+    margin: 0px;
+    font: 400 18px 'Rubik', sans-serif;
+    color: #ababab;
     text-align: left;
     margin-top: 16px;
-	}
+  }
 
   .uxc3-box p {
-	  margin: 0px;
+    margin: 0px;
     font-family: 'Rubik', sans-serif;
     font-size: 14px;
     text-align: justify;
     color: #5f5f5f;
     margin-top: 16px;
-	}
+  }
 
   .uxc3-box a {
     font-family: 'Rubik';
@@ -227,7 +301,7 @@ margin-left: 50px; }
     letter-spacing: normal;
     color: #f3f3f3;
     text-decoration: none;
-	}
+  }
 
   .box-button {
     width: 120px;
@@ -235,50 +309,151 @@ margin-left: 50px; }
     box-shadow: 0 4px 8px 0 rgba(169, 169, 169, 0.3);
     background-color: #008dd3;
     padding: 16px 24px 16px 24px;
-    left: 24px; bottom: 24px;
+    left: 24px;
+    bottom: 24px;
   }
 
-.uxc3-img1 { width: 200px; height: 450px;
-background-size: 380px; top: -130px; }
-#uxc-4 { height: 590px; }
-  .uxc4-img2 { width: 109px; height: 166px;
+  .uxc3-img1 {
+    width: 200px;
+    height: 250px;
+    background-size: 380px;
+    top: -130px;
+  }
+
+  #uxc-4 {
+    height: 590px;
+  }
+
+  .uxc4-img2 {
+    width: 109px;
+    height: 166px;
     background-size: 109px;
-  top: -50px; }
-  .uxc4-img1 { width: 329px; background-size: 329px;
-  height: 238px; bottom: 20px; right: -20px; }
-  .uxc4-img3 { width: 85px; height: 136px;
-  background-size: 85px; top: 410px; left: 0px; }
+    top: -50px;
+  }
 
-  .uxc4-head { text-align: center; width: 60%; margin: auto;
-  padding-right: 0px; padding-top: 150px;
-  font: 500 21px/25px Rubik, sans-serif; }
-  .uxc4-button-cont { padding-right: 0px; width: 100%; }
-  .uxc4-button { margin: auto; margin-top: 30px; }
+  .uxc4-img1 {
+    width: 329px;
+    background-size: 329px;
+    height: 238px;
+    bottom: 20px;
+    right: -20px;
+  }
 
-#uxc-5 { background: #f3f3f3; padding: 70px 0px; }
-  .uxc5-logo { width: 180px; height: 50px;
-  background-size: 180px; display: block; margin-left: 60px; ;
-}
-  .uxc5-follow { margin-left: 60px; display: block; border-right: 0px;
-  border-bottom: 2px solid rgba(196, 196, 196, 0.4);
-  width: 200px; padding-right: 0px; margin-top: 30px;
-  padding-bottom: 10px;
-}
-.uxc5-contact { display: block; width: 200px;
-margin-left: 60px; margin-top: 25px; }
+  .uxc4-img3 {
+    width: 85px;
+    height: 136px;
+    background-size: 85px;
+    top: 410px;
+    left: 0px;
+  }
 
-#modal-window { top: 30px; left: 30px; transform: translate(0%,0%);; }
-.sp-img { display: none; }
-#spmodal { width: 260px; height: 500px; }
-.sp-right { width: 210px; top: 25px; right: 25px; height: 450px; }
-.speaker-button { bottom: 0px;}
-.sp-right p { max-height: 250px; }
+  .uxc4-head {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding-right: 0px;
+    padding-top: 150px;
+    font: 500 21px/25px Rubik, sans-serif;
+  }
 
-#talkmodal { width: 210px; height: 400px; padding: 50px 25px; text-align: left; }
-#talkmodal h1 { font: 500 24px/28px Rubik; }
-#talkmodal h2 { font: 400 16px/19px Rubik; }
-#talkmodal p { font: 400 14px/30px Rubik; }
-#talkmodal p b { width: 60px; margin-right: 15px;  }
-.talkregbutton { left: 25px; }
+  .uxc4-button-cont {
+    padding-right: 0px;
+    width: 100%;
+  }
 
+  .uxc4-button {
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  #uxc-5 {
+    background: #f3f3f3;
+    padding: 70px 0px;
+  }
+
+  .uxc5-logo {
+    width: 180px;
+    height: 50px;
+    background-size: 180px;
+    display: block;
+    margin-left: 60px;
+    ;
+  }
+
+  .uxc5-follow {
+    margin-left: 60px;
+    display: block;
+    border-right: 0px;
+    border-bottom: 2px solid rgba(196, 196, 196, 0.4);
+    width: 200px;
+    padding-right: 0px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  .uxc5-contact {
+    display: block;
+    width: 200px;
+    margin-left: 60px;
+    margin-top: 25px;
+  }
+
+  #modal-window {
+    top: 30px;
+    left: 30px;
+    transform: translate(0%, 0%);
+    ;
+  }
+
+  .sp-img {
+    display: none;
+  }
+
+  #spmodal {
+    width: 260px;
+    height: 500px;
+  }
+
+  .sp-right {
+    width: 210px;
+    top: 25px;
+    right: 25px;
+    height: 450px;
+  }
+
+  .speaker-button {
+    bottom: 0px;
+  }
+
+  .sp-right p {
+    max-height: 250px;
+  }
+
+  #talkmodal {
+    width: 210px;
+    height: 400px;
+    padding: 50px 25px;
+    text-align: left;
+  }
+
+  #talkmodal h1 {
+    font: 500 24px/28px Rubik;
+  }
+
+  #talkmodal h2 {
+    font: 400 16px/19px Rubik;
+  }
+
+  #talkmodal p {
+    font: 400 14px/30px Rubik;
+  }
+
+  #talkmodal p b {
+    width: 60px;
+    margin-right: 15px;
+  }
+
+  .talkregbutton {
+    left: 25px;
+  }
 }

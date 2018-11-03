@@ -39,6 +39,10 @@ body {
 	  left: 60px;
 	}
 
+	.fa-bars {
+		display: none;
+	}
+
 	.navlinks {
 	  position: absolute;
 	  top: 50px;
