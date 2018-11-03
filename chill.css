@@ -486,13 +486,22 @@ body {
 	}
 
 	/* modals */
+	.close-container {
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.close {
+		margin: 16px;
+		cursor: pointer;
+	}
+
 	.modal-content {
 	  display: none;
 	}
 
 	#fade-background {
 	  position: fixed;
-	  _position: absolute;
 	  top: 0;
 	  left: 0;
 	  width: 100%;
@@ -516,17 +525,24 @@ body {
 	  width: 900px;
 	  height: 580px;
 	  background: white;
-	  margin: auto;
-	  position: relative;
+	}
+
+	.sp-grid {
+		display: grid;
+		grid-template-columns: auto auto;
+		margin: auto;
 	}
 
 	.sp-img {
 	  width: 350px;
 	  height: 420px;
 	  overflow: hidden;
-	  position: absolute;
-	  top: 80px;
-	  left: 80px;
+	  /* position: absolute; */
+	}
+
+	.sp-img {
+		margin-left: auto;
+		margin-right: 24px;
 	}
 
 	.sp-img img {
@@ -537,9 +553,9 @@ body {
 	.sp-right {
 	  width: 350px;
 	  height: 400px;
-	  top: 100px;
-	  right: 80px;
-	  position: absolute;
+		margin-right: auto;
+		margin-left: 24px;
+	  /* position: absolute; */
 	}
 
 	.sp-right h1 {
@@ -547,6 +563,7 @@ body {
 	  font: 500 21px/30px Rubik;
 	  color: #008DD3;
 	  text-align: left;
+		margin-top: 24px;
 	}
 
 	.sp-right h2 {
@@ -577,51 +594,62 @@ body {
 	  font: 400 16px/19px Rubik;
 	  cursor: pointer;
 	  text-decoration: none;
-	  position: absolute;
-	  bottom: 20px;
+		margin-top: 36px;
+	  /* position: absolute; */
+	  /* bottom: 20px; */
 	}
 
 	#talkmodal {
 	  background: white;
 	  margin: auto;
 	  width: 650px;
-	  height: 400px;
+	  height: 575px;
 	  background: white;
-	  vertical-align: middle;
+	  /* vertical-align: middle;
 	  position: relative;
 	  text-align: center;
-	  padding: 70px 50px;
+	  padding: 70px 50px; */
 	}
 
-	#talkmodal h1 {
+	.talkmodal {
+		display: grid;
+		grid-template-rows: auto auto auto auto;
+	}
+
+	.talkmodal h1 {
 	  margin: 0px;
 	  color: #008DD3;
+		text-align: center;
 	  font: 500 36px/43px Rubik;
+		grid-row: 1/1;
 	}
 
-	#talkmodal h2 {
+	.talkmodal h2 {
 	  margin: 0px;
 	  color: black;
 	  font: 400 18px/21px Rubik;
 	  text-transform: uppercase;
 	  margin: 16px 0px;
+		grid-row: 2/2;
+		text-align: center;
 	}
 
-	#talkmodal p {
+	.talkmodal p {
 	  font: 400 16px/38px Rubik;
 	  color: #707070;
 	  text-align: left;
 	  width: 350px;
 	  margin: 0px;
-	  margin: auto;
+		grid-row: 3/3;
 	}
 
-	#talkmodal p b {
+	.talkmodal p b {
 	  font: inherit;
 	  display: inline-block;
 	  width: 80px;
-	  text-align: right;
-	  margin-right: 30px;
+	  text-align: justify;
+	  margin: auto;
+		margin-bottom: 8px;
 	}
 
 	.talkregbutton {
@@ -635,10 +663,8 @@ body {
 	  font: 400 14px/17px Rubik;
 	  cursor: pointer;
 	  text-decoration: none;
-	  margin: auto;
-	  position: absolute;
-	  bottom: 50px;
-	  left: 307px;
+		grid-row: 4/4;
+		margin-top: 32px;
 	}
 
 	.regbutton:hover, .speaker-button:hover, .panel-button:hover, .talkregbutton:hover, .box-button:hover {
