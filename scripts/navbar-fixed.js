@@ -19,6 +19,11 @@ $(document).scroll(function() {
   activateCurrentSection();
 });
 
+// close mobile nav on link click
+$("a[href^='#']").on("click", function() {
+  $("#mobilenavlinks").hide();
+});
+
 // get target position and scrolls to it
 function scrollToSection(self) {
   // get the target href
