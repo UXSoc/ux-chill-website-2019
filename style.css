@@ -17,13 +17,13 @@
 	  top: 0px;
 	  left: 0px;
 	  z-index: 99;
-	  height: 20vw;
+	  height: 15.5vw;
 	  background: white;
     display: block;
     box-shadow: 0px 4px 8px rgba(169,169,169,0.3);
   }
 
-  .navlogo img { width: 45vw; margin-left: 2vw;}
+  .navlogo { height: 7vw; }
   /* Hide the links inside the navigation menu (except for logo/home) */
   .mobilenav #mobilenavlinks {
     display: none;
@@ -34,7 +34,7 @@
   padding: 14px 16px;}
   #mobilenavlinks a {
     color: white;
-    padding: 14px 16px;
+    padding: 20px 30px;
     text-decoration: none;
     display: block;
     background: rgba(169,169,169,0.8);
@@ -52,14 +52,14 @@
     display: block;
     position: absolute;
     right: 0;
-    top: 0; width: 12vw; height: 11vw;
+    top: 0; width: 9vw; height: 7vw;
   }
 
   .fa-bars {
     display: flex;
     justify-content:flex-end;
-    font-size: 24px; line-height: 12vw;
-    padding-right: 2vw;
+    font-size: 24px; line-height: 7vw;
+    padding-right: 1vw;
     color: #ABABAB;
     cursor: pointer;
   }
