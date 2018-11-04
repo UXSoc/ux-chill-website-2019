@@ -1,47 +1,261 @@
-@media screen and (min-width: 320px) and (max-width: 450px) {
-  body {
-    left: 0;
-    top: 0;
-    margin: 0px;
-    padding: 0px;
-    font-size: 12px;
-    overflow-x: hidden;
+@media screen and (max-width: 1024px) {
+  #navbar {
+    height: 95px;
+  }
+
+  .navlinks {
+    display: none;
+  }
+
+  .headlogo {
+    display: none;
+    position: fixed;
+    background-size: 160px;
+    width: 160px;
+    height: 38px;
+    top: 25px;
+    left: 20px;
+  }
+
+  .regbutton {
+    z-index: 0;
+    top: 350px;
+    position: absolute;
+    left: 18.5rem;
+    margin-top: 2.5rem;
+  }
+
+  .mobilenav {
+    width: 100vw;
+	  position: fixed;
+	  top: 60px;
+	  left: 0;
+	  z-index: 99;
+	  height: 15vw;
+	  background: transparent;
+    display: block;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .mobilenav #mobilenavlinks {
+    display: none;
+  }
+
+  /* Style navigation menu links */
+  .mobilenav a {
+    display: block;
+    padding: 16px 16px;
+  }
+
+  #mobilenavlinks a {
+    color: white;
+    padding: 20px 30px;
+    text-decoration: none;
+    display: block;
+    background: rgba(169,169,169,0.8);
+    font: 400 16px/19px ""Rubik"", sans-serif;
+    transition: 0.3s all ease-in-out;
+  }
+
+  /* Add a grey background color on mouse-over */
+  #mobilenavlinks a:hover {
+    background-color: #008dd3;
+  }
+
+  .fa-bars {
+    display: block;
+    font-size: 24px;
+    position: absolute;
+    top: -25px;
+	  right: 20px;
+    color: #ABABAB;
+    cursor: pointer;
   }
 
   #uxc-1 {
+	  height: 650px;
+	}
+
+  .uxc1-img1 {
+	  background-image: url("./assets/pic1.png");
+	  width: 240px;
+	  height: 480px;
+	  position: absolute;
+	  left: 30px;
+    top: 0px;
+    background-size: cover;
+	}
+
+	.uxc1-img2 {
+	  background-image: url("./assets/Asset18.png");
+	  width: 320px;
+	  height: 200px;
+    position: absolute;
+    top: 300px;
+    right: 30px;
+    background-size: cover;
+	}
+
+	.uxc1-img3 {
+	  background-image: url("./assets/Asset11.png");
+	  width: 400px;
+	  height: 350px;
+	  position: absolute;
+	  right: -70px;
+    top: 0rem;
+    background-size: cover;
+  }
+
+  .uxc1-center {
+	  width: 600px;
+	  margin: auto;
+	  height: 151px;
+	  margin-top: 100px;
+	  position: relative;
+    top: -1rem;
+    left: 5rem;
+  }
+
+	.uxc1-center h1 {
+	  font-family: "Roboto", sans-serif;
+	  font-style: normal;
+	  font-weight: 900;
+	  line-height: 180px;
+	  font-size: 140px;
+	  letter-spacing: 0.05em;
+	  display: inline-block;
+	  color: #3F3F3F;
+	}
+
+	.uxc1-center h2 {
+	  font-family: "Nunito Sans", sans-serif;
+	  font-weight: 400;
+	  line-height: 120px;
+	  font-size: 70px;
+	  color: #3F3F3F;
+    position: absolute;
+    left: 205px;
+	}
+
+	.uxc1-line {
+	  background-color: #008DD3;
+	  height: 15px;
+	  position: absolute;
+    bottom: 43px;
+    left: 205px;
+	}
+
+	.uxc1-center h3 {
+	  color: #ABABAB;
+	  font-family: "Rubik", sans-serif;
+	  font-size: 24px;
+	  font-weight: 500;
+    position: absolute;
+    right: 0;
+    width: 15rem;
+  }
+
+  .uxc1-text {
+	  color: #707070;
+	  opacity: 0.85;
+	  font-size: 20px;
+	  margin: auto;
+	  margin-top: -1rem;
+	  padding-left: 70px;
+	  width: 500px;
+	  font: 400 18px/34px "Rubik", sans-serif;
+	}
+}
+
+
+
+
+@media screen and (max-width: 450px) {
+  #uxc-1 {
     height: 570px;
+    margin-top: 7rem;
   }
 
   .uxc1-img1 {
     width: 220px;
     height: 92px;
-    background-size: 300px;
-    left: 0px;
-    top: -60px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-size: cover;
   }
 
   .uxc1-img3 {
     width: 240px;
     height: 198px;
-    background-size: 261px;
+    position: absolute;
     right: -50px;
-    top: 205px;
+    top: 180px;
+    background-size: cover;
   }
 
   .uxc1-img2 {
     width: 188px;
     height: 135px;
-    background-size: 188px;
+    position: absolute;
+    top: 23rem;
     right: 20px;
-    bottom: 30px;
+    background-size: cover;
+  }
+
+  .uxc1-center {
+    width: 20px;
+    height: 70px;
+    position: absolute;
+    top: -0.75rem;
+    left: 2.5rem;
+  }
+
+  .uxc1-center h1 {
+    font-size: 50px;
+    line-height: 56px;
+  }
+
+  .uxc1-center h2 {
+    font-size: 36px;
+    line-height: 43px;
+    position: absolute;
+    top: 0;
+    left: 75px;
+  }
+
+  .uxc1-line {
+    height: 5px;
+    width: 122px;
+    position: absolute;
+    bottom: 25px;
+    left: 78px;
+  }
+
+  .uxc1-center h3 {
+    font-size: 14px;
+    position: absolute;
+    left: 80px;
   }
 
   .uxc1-text {
     width: 230px;
     font: 400 12px/19px "Rubik", sans-serif;
-    margin: 0px;
-    margin-top: 80px;
+    position: absolute;
+    top: 11rem;
     padding-left: 40px;
+  }
+
+  .regbutton {
+    z-index: 0;
+    width: 125px;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    top: 350px;
+    position: absolute;
+    left: 2.5rem;
+    margin-top: 1.5rem;
   }
 
   .uxchill-footer h4 {
@@ -59,38 +273,10 @@
     background-size: 50px;
   }
 
-  .uxc1-center {
-    width: 197px;
-    height: 70px;
-    margin: 0px;
-    margin-top: 140px;
-    margin-left: 50px;
-  }
-
-  .uxc1-center h1 {
-    font-size: 50px;
-    line-height: 56px;
-  }
-
-  .uxc1-center h2 {
-    font-size: 36px;
-    line-height: 43px;
-  }
-
-  .uxc1-line {
-    height: 5px;
-    width: 122px;
-    bottom: 25px;
-  }
-
-  .uxc1-center h3 {
-    font-size: 14px;
-  }
-
   #uxc-2 h1 {
     width: 167px;
     height: 57px;
-    font-family: 'Rubik', sans-serif;
+    font-family: '"Rubik"', sans-serif;
     font-size: 24px;
     font-weight: 500;
     font-style: normal;
@@ -139,7 +325,7 @@
   }
 
   .uxc2-panel h2 {
-    font-family: 'Rubik', sans-serif;
+    font-family: '"Rubik"', sans-serif;
     font-size: 16px;
     font-weight: 500;
     font-style: normal;
@@ -150,7 +336,7 @@
   }
 
   .uxc2-panel h3 {
-    font-family: 'Rubik', sans-serif;
+    font-family: '"Rubik"', sans-serif;
     font-size: 16px;
     font-weight: 500;
     font-style: normal;
@@ -162,7 +348,7 @@
   }
 
   .uxc2-panel p {
-    font-family: 'Rubik', sans-serif;
+    font-family: '"Rubik"', sans-serif;
     font-size: 12px;
     font-weight: normal;
     font-style: normal;
@@ -174,7 +360,7 @@
   }
 
   .uxc2-panel a {
-    font-family: 'Rubik', sans-serif;
+    font-family: '"Rubik"', sans-serif;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -204,7 +390,7 @@
   #uxc-3 h1 {
     width: 125px;
     height: 57px;
-    font-family: 'Rubik', sans-serif;
+    font-family: '"Rubik"', sans-serif;
     font-size: 24px;
     font-weight: 500;
     font-style: normal;
@@ -228,7 +414,7 @@
     font-weight: 500px;
     font-size: 32px;
     margin-bottom: 16px;
-    font-family: 'Rubik', sans-serif;
+    font-family: '"Rubik"', sans-serif;
     color: #008DD3;
     text-align: left;
   }
@@ -236,14 +422,14 @@
   .uxc3-box h3 {
     margin: 0px;
     font-size: 24px;
-    font-family: 'Rubik', sans-serif;
+    font-family: '"Rubik"', sans-serif;
     text-align: left;
     color: #3f3f3f;
   }
 
   .uxc3-box h4 {
     margin: 0px;
-    font: 400 18px 'Rubik', sans-serif;
+    font: 400 18px '"Rubik"', sans-serif;
     color: #ababab;
     text-align: left;
     margin-top: 16px;
@@ -251,7 +437,7 @@
 
   .uxc3-box p {
     margin: 0px;
-    font-family: 'Rubik', sans-serif;
+    font-family: '"Rubik"', sans-serif;
     font-size: 14px;
     text-align: justify;
     color: #5f5f5f;
@@ -259,7 +445,7 @@
   }
 
   .uxc3-box a {
-    font-family: 'Rubik', sans-serif;
+    font-family: '"Rubik"', sans-serif;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -324,7 +510,7 @@
     margin: auto;
     padding-right: 0px;
     padding-top: 150px;
-    font: 500 21px/25px "Rubik", sans-serif;
+    font: 500 21px/25px ""Rubik"", sans-serif;
   }
 
   .uxc4-button-cont {
@@ -408,15 +594,15 @@
   }
 
   #talkmodal h1 {
-    font: 500 24px/28px "Rubik", sans-serif;
+    font: 500 24px/28px ""Rubik"", sans-serif;
   }
 
   #talkmodal h2 {
-    font: 400 16px/19px "Rubik", sans-serif;
+    font: 400 16px/19px ""Rubik"", sans-serif;
   }
 
   #talkmodal p {
-    font: 400 14px/30px "Rubik", sans-serif;
+    font: 400 14px/30px ""Rubik"", sans-serif;
   }
 
   #talkmodal p b {
@@ -426,92 +612,5 @@
 
   .talkregbutton {
     left: 25px;
-  }
-}
-
-@media screen and (max-width: 1085px) {
-  #navbar {
-    height: 95px;
-  }
-
-  .navlinks {
-    display: none;
-  }
-
-  .headlogo {
-    display: none;
-    position: fixed;
-    background-size: 160px;
-    width: 160px;
-    height: 38px;
-    top: 25px;
-    left: 20px;
-  }
-
-  .regbutton {
-    z-index: 0;
-    top: 350px;
-    position: absolute;
-    right: auto;
-    left: 40px;
-  }
-
-  .mobilenav {
-    width: 100vw;
-	  position: fixed;
-	  top: 60px;
-	  left: 0;
-	  z-index: 99;
-	  height: 15vw;
-	  background: transparent;
-    display: block;
-  }
-
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .mobilenav #mobilenavlinks {
-    display: none;
-  }
-
-  /* Style navigation menu links */
-  .mobilenav a {
-    display: block;
-    padding: 16px 16px;
-  }
-
-  #mobilenavlinks a {
-    color: white;
-    padding: 20px 30px;
-    text-decoration: none;
-    display: block;
-    background: rgba(169,169,169,0.8);
-    font: 400 16px/19px "Rubik", sans-serif;
-    transition: 0.3s all ease-in-out;
-  }
-
-  /* Add a grey background color on mouse-over */
-  #mobilenavlinks a:hover {
-    background-color: #008dd3;
-  }
-
-  .fa-bars {
-    display: block;
-    font-size: 24px;
-    position: absolute;
-    top: -25px;
-	  right: 20px;
-    color: #ABABAB;
-    cursor: pointer;
-  }
-}
-
-@media screen and (min-width: 1086px) {
-  .headlogo {
-    display: block;
-    background-size: 188px;
-	  width: 188px;
-	  height: 50px;
-	  position: absolute;
-	  top: 30px;
-	  left: 60px;
   }
 }
