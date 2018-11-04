@@ -34,7 +34,7 @@
   margin-left: 12px;
   margin-right: 12px;
   display: grid;
-  grid-template-rows: 216px 32px 32px auto auto;
+  grid-template-rows: 216px 32px 32px 170px auto;
 }
 
 .panel-img {
@@ -84,6 +84,8 @@
   cursor: pointer;
 }
 
+
+
 @media screen and (max-width: 1100px) and (min-width: 720px) {
   .uxc2-container {
     margin: auto !important;
@@ -115,7 +117,7 @@
     border-radius: 8px;
     text-align: left;
     display: grid;
-    grid-template-rows: 216px 32px 31px auto auto;
+    grid-template-rows: 216px 32px 31px 150px auto;
   }
 
   .panel-button {
@@ -138,7 +140,7 @@
 
   .uxc2-panel {
     width: 73vw;
-    grid-template-rows: 216px 32px 48px auto auto;
+    grid-template-rows: 216px 40px 48px 120px auto;
   }
 
   .panel-img {
@@ -146,7 +148,7 @@
   }
 
   .uxc2-panel h2 {
-    margin-bottom: 8px !important;
+    margin-bottom: 16px !important;
   }
 
   .uxc2-panel h3 {
@@ -155,6 +157,7 @@
 
   .uxc2-panel p {
     max-height: 200px !important;
+    overflow: hidden;
   }
 
 
