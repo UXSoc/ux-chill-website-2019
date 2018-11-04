@@ -349,7 +349,7 @@
   }
 
   .headlogo {
-    display: block;
+    display: none;
     position: fixed;
     background-size: 160px;
     width: 160px;
@@ -411,5 +411,17 @@
 	  right: 20px;
     color: #ABABAB;
     cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 1086px) {
+  .headlogo {
+    display: block;
+    background-size: 188px;
+	  width: 188px;
+	  height: 50px;
+	  position: absolute;
+	  top: 30px;
+	  left: 60px;
   }
 }
