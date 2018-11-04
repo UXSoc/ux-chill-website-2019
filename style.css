@@ -446,3 +446,20 @@
 	  left: 60px;
   }
 }
+
+@media screen and (min-width: 450px) and (max-width: 768px) {
+  #uxc-5 {
+    background: #f3f3f3;
+    padding: 60px 0px;
+  }
+
+  .uxc5-contain{
+    width: 720px;
+    margin-left: 18%;
+  }
+
+  .uxc5-logo{
+    margin: 0 0 10% 15%;
+
+  }
+}
