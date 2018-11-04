@@ -479,14 +479,6 @@
     margin-top: 0px;
   }
 
-  .uxc2-panel, .uxc2-panel:first-child, .uxc2-panel:nth-child(4) {
-    border-radius: 7px;
-    background-color: #ffffff;
-    margin: 0 19px 32px 19px;
-    padding: 32px 24px 32px 24px;
-    width: 234px;
-  }
-
   .panel-img {
     width: 234px;
     height: 176px;
@@ -691,7 +683,7 @@
     margin: auto;
     margin-top: 30px;
   }
-  
+
   #modal-window {
     top: 30px;
     left: 30px;
