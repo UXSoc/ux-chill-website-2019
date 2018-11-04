@@ -1,5 +1,4 @@
 @media screen and (min-width: 320px) and (max-width: 450px) {
-
   body {
     left: 0;
     top: 0;
@@ -8,60 +7,6 @@
     font-size: 12px;
     overflow-x: hidden;
 
-  }
-
-  #navbar { display: none; }
-
-  .mobilenav {
-    width: 100vw;
-	  position: fixed;
-	  top: 0px;
-	  left: 0px;
-	  z-index: 99;
-	  height: 15.5vw;
-	  background: white;
-    display: block;
-  }
-
-  .navlogo { height: 7vw; }
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .mobilenav #mobilenavlinks {
-    display: none;
-  }
-
-  /* Style navigation menu links */
-  .mobilenav a { display: block;
-  padding: 14px 16px;}
-  #mobilenavlinks a {
-    color: white;
-    padding: 20px 30px;
-    text-decoration: none;
-    display: block;
-    background: rgba(169,169,169,0.8);
-    font: 400 14px/19px Rubik;
-  transition: 0.3s all ease-in-out;
-  }
-
-  /* Add a grey background color on mouse-over */
-  #mobilenavlinks a:hover {
-    background-color: #008dd3;
-  }
-
-  .mobilenav a.icon {
-    background: white;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0; width: 9vw; height: 6.5vw;
-  }
-
-  .fa-bars {
-    display: flex;
-    justify-content:flex-end;
-    font-size: 24px; line-height: 7vw;
-    padding-right: 1vw;
-    color: #ABABAB;
-    cursor: pointer;
   }
 
   #uxc-1 {
@@ -94,18 +39,10 @@
 
   .uxc1-text {
     width: 230px;
-    font: 400 12px/19px Rubik;
+    font: 400 12px/19px "Rubik", sans-serif;
     margin: 0px;
     margin-top: 80px;
     padding-left: 40px;
-  }
-
-  .regbutton {
-    top: 350px;
-    position: absolute;
-    /* right: 135px; */
-    right: auto;
-    left: 40px;
   }
 
   .uxchill-footer h4 {
@@ -154,7 +91,7 @@
   #uxc-2 h1 {
     width: 167px;
     height: 57px;
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     font-size: 24px;
     font-weight: 500;
     font-style: normal;
@@ -203,7 +140,7 @@
   }
 
   .uxc2-panel h2 {
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     font-weight: 500;
     font-style: normal;
@@ -214,7 +151,7 @@
   }
 
   .uxc2-panel h3 {
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     font-weight: 500;
     font-style: normal;
@@ -226,7 +163,7 @@
   }
 
   .uxc2-panel p {
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     font-size: 12px;
     font-weight: normal;
     font-style: normal;
@@ -238,7 +175,7 @@
   }
 
   .uxc2-panel a {
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -268,7 +205,7 @@
   #uxc-3 h1 {
     width: 125px;
     height: 57px;
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     font-size: 24px;
     font-weight: 500;
     font-style: normal;
@@ -323,7 +260,7 @@
   }
 
   .uxc3-box a {
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -333,6 +270,10 @@
     color: #f3f3f3;
     text-decoration: none;
   }
+
+  .uxc3-box:nth-child(1) {
+	  margin-left: auto;
+	}
 
   .box-button {
     width: 120px;
@@ -384,7 +325,7 @@
     margin: auto;
     padding-right: 0px;
     padding-top: 150px;
-    font: 500 21px/25px Rubik, sans-serif;
+    font: 500 21px/25px "Rubik", sans-serif;
   }
 
   .uxc4-button-cont {
@@ -472,15 +413,15 @@
   }
 
   #talkmodal h1 {
-    font: 500 24px/28px Rubik;
+    font: 500 24px/28px "Rubik", sans-serif;
   }
 
   #talkmodal h2 {
-    font: 400 16px/19px Rubik;
+    font: 400 16px/19px "Rubik", sans-serif;
   }
 
   #talkmodal p {
-    font: 400 14px/30px Rubik;
+    font: 400 14px/30px "Rubik", sans-serif;
   }
 
   #talkmodal p b {
@@ -490,5 +431,80 @@
 
   .talkregbutton {
     left: 25px;
+  }
+}
+
+@media screen and (max-width: 1085px) {
+  #navbar {
+    height: 95px;
+  }
+
+  .navlinks {
+    display: none;
+  }
+
+  .headlogo {
+    display: block;
+    position: fixed;
+    background-size: 160px;
+    width: 160px;
+    height: 38px;
+    top: 25px;
+    left: 20px;
+  }
+
+  .regbutton {
+    z-index: 0;
+    top: 350px;
+    position: absolute;
+    right: auto;
+    left: 40px;
+  }
+
+  .mobilenav {
+    width: 100vw;
+	  position: fixed;
+	  top: 60px;
+	  left: 0;
+	  z-index: 99;
+	  height: 15vw;
+	  background: transparent;
+    display: block;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .mobilenav #mobilenavlinks {
+    display: none;
+  }
+
+  /* Style navigation menu links */
+  .mobilenav a {
+    display: block;
+    padding: 16px 16px;
+  }
+
+  #mobilenavlinks a {
+    color: white;
+    padding: 20px 30px;
+    text-decoration: none;
+    display: block;
+    background: rgba(169,169,169,0.8);
+    font: 400 16px/19px "Rubik", sans-serif;
+    transition: 0.3s all ease-in-out;
+  }
+
+  /* Add a grey background color on mouse-over */
+  #mobilenavlinks a:hover {
+    background-color: #008dd3;
+  }
+
+  .fa-bars {
+    display: block;
+    font-size: 24px;
+    position: absolute;
+    top: -25px;
+	  right: 20px;
+    color: #ABABAB;
+    cursor: pointer;
   }
 }
