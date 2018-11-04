@@ -691,43 +691,7 @@
     margin: auto;
     margin-top: 30px;
   }
-
-  #uxc-5 {
-    background: white;
-    padding: 70px 0px;
-  }
-
-  .uxc5-contain{
-    width: 360px;
-  }
-
-  .uxc5-logo {
-    width: 180px;
-    height: 50px;
-    background-size: 180px;
-    display: block;
-    margin-left: 60px;
-    ;
-  }
-
-  .uxc5-follow {
-    margin-left: 60px;
-    display: block;
-    border-right: 0px;
-    border-bottom: 2px solid rgba(196, 196, 196, 0.4);
-    width: 200px;
-    padding-right: 0px;
-    margin-top: 30px;
-    padding-bottom: 10px;
-  }
-
-  .uxc5-contact {
-    display: block;
-    width: 200px;
-    margin-left: 60px;
-    margin-top: 25px;
-  }
-
+  
   #modal-window {
     top: 30px;
     left: 30px;
@@ -855,21 +819,5 @@
 	  position: absolute;
 	  top: 30px;
 	  left: 60px;
-  }
-}
-
-@media screen and (min-width: 450px) and (max-width: 768px) {
-  #uxc-5 {
-    padding: 60px 0px;
-  }
-
-  .uxc5-contain{
-    width: 720px;
-    margin-left: 18%;
-  }
-
-  .uxc5-logo{
-    margin: 0 0 10% 15%;
-
   }
 }
