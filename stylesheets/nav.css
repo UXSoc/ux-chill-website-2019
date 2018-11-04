@@ -1,0 +1,144 @@
+#navbar {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  height: 115px;
+  background: white;
+}
+
+.headlogo {
+  background-image: url("./../assets/Logo.png");
+  background-size: 188px;
+  width: 188px;
+  height: 50px;
+  position: absolute;
+  top: 30px;
+  left: 60px;
+}
+
+.mobilenav {
+  display: none;
+}
+
+.fa-bars {
+  display: none;
+}
+
+.navlinks {
+  position: absolute;
+  top: 50px;
+  left: 250px;
+}
+
+.navlinks a {
+  transition: 0.5s;
+  font-size: 16px;
+  color: #3B3E42;
+  margin-left: 80px;
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
+}
+
+.navlinks a {
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+  transition: 0.3s all ease-in-out;
+}
+
+.navlinks a:hover {
+  border-color: #008dd3;
+}
+
+.regbutton {
+  color: white;
+  background-color: #008dd3;
+  box-shadow: 0px 4px 8px rgba(169, 169, 169, 0.3);
+  border-radius: 7px;
+  width: 148px;
+  text-align: center;
+  padding: 16px 0px;
+  font: 400 16px/19px "Rubik", sans-serif;
+  cursor: pointer;
+  border: none;
+  position: fixed;
+  top: 30px;
+  right: 60px;
+  z-index: 100;
+}
+
+@media screen and (max-width: 1024px) {
+  #navbar {
+    height: 95px;
+  }
+
+  .navlinks {
+    display: none;
+  }
+
+  .headlogo {
+    background-image: url("./../assets/Logo.png");
+    display: none;
+    position: fixed;
+    background-size: 160px;
+    width: 160px;
+    height: 38px;
+    top: 25px;
+    left: 20px;
+  }
+
+  .regbutton {
+    z-index: 0;
+    top: 350px;
+    position: absolute;
+    left: 18.5rem;
+    margin-top: 2.5rem;
+  }
+
+  .mobilenav {
+    width: 100vw;
+	  position: fixed;
+	  top: 60px;
+	  left: 0;
+	  z-index: 99;
+	  height: 15vw;
+	  background: transparent;
+    display: block;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .mobilenav #mobilenavlinks {
+    display: none;
+  }
+
+  /* Style navigation menu links */
+  .mobilenav a {
+    display: block;
+    padding: 16px 16px;
+  }
+
+  #mobilenavlinks a {
+    color: white;
+    padding: 20px 30px;
+    text-decoration: none;
+    display: block;
+    background: rgba(169,169,169,0.8);
+    font: 400 16px/19px "Rubik", sans-serif;
+    transition: 0.3s all ease-in-out;
+  }
+
+  /* Add a grey background color on mouse-over */
+  #mobilenavlinks a:hover {
+    background-color: #008dd3;
+  }
+
+  .fa-bars {
+    display: block;
+    font-size: 24px;
+    position: absolute;
+    top: -25px;
+	  right: 20px;
+    color: #ABABAB;
+    cursor: pointer;
+  }
+}

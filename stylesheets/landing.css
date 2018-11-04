@@ -1,0 +1,499 @@
+#uxc-1 {
+  height: 720px;
+  position: relative;
+  background: white;
+}
+
+.uxc1-img1 {
+  background-image: url("./../assets/pic1.png");
+  width: 565px;
+  height: 714px;
+  position: absolute;
+  left: 50px;
+  top: 0px;
+}
+
+.uxc1-img2 {
+  background-image: url("./../assets/Asset18.png");
+  width: 398px;
+  height: 286px;
+  position: absolute;
+  right: 75px;
+  bottom: 75px;
+}
+
+.uxc1-img3 {
+  background-image: url("./../assets/Asset11.png");
+  width: 390px;
+  height: 427px;
+  position: absolute;
+  right: -122px;
+  top: 31px;
+}
+
+.uxc1-center {
+  width: 670px;
+  margin: auto;
+  height: 151px;
+  margin-top: 160px;
+  position: relative;
+  top: 50px;
+}
+
+.uxc1-center h1 {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 156px;
+  font-size: 210px;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  color: #3F3F3F;
+}
+
+.uxc1-center h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  line-height: 83px;
+  font-size: 110px;
+  color: #3F3F3F;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: 0px;
+}
+
+.uxc1-line {
+  background-color: #008DD3;
+  height: 15px;
+  width: 375px;
+  margin: 0px;
+  position: absolute;
+  bottom: 43px;
+  right: 0px;
+}
+
+.uxc1-center h3 {
+  color: #ABABAB;
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  margin: 0px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.uxc1-text {
+  color: #707070;
+  opacity: 0.85;
+  font-size: 20px;
+  margin: auto;
+  margin-top: 90px;
+  padding-left: 70px;
+  width: 600px;
+  font: 400 18px/34px "Rubik", sans-serif;
+}
+
+.uxchill-footer {
+  position: absolute;
+  bottom: 35px;
+  right: 35px;
+  height: 72px;
+}
+
+.uxchill-footer h4 {
+  color: #ababab;
+  opacity: 0.7;
+  font: 500 15px/18px "Roboto", sans-serif;
+  margin: 0px;
+  display: inline-block;
+  position: relative;
+  top: -30px;
+}
+
+.sqlogo {
+  display: inline-block;
+  background: url("./../assets/biglogo.png");
+  background-size: 72px;
+  display: inline-block;
+  margin-left: 10px;
+  height: 72px;
+  width: 72px;
+}
+
+@media screen and (max-width: 1024px) {
+  #uxc-1 {
+	  height: 650px;
+	}
+
+  .uxc1-img1 {
+	  background-image: url("./assets/pic1.png");
+	  width: 240px;
+	  height: 480px;
+	  position: absolute;
+	  left: 30px;
+    top: 0px;
+    background-size: cover;
+	}
+
+	.uxc1-img2 {
+	  background-image: url("./assets/Asset18.png");
+	  width: 320px;
+	  height: 200px;
+    position: absolute;
+    top: 300px;
+    right: 30px;
+    background-size: cover;
+	}
+
+	.uxc1-img3 {
+	  background-image: url("./assets/Asset11.png");
+	  width: 400px;
+	  height: 350px;
+	  position: absolute;
+	  right: -70px;
+    top: 0rem;
+    background-size: cover;
+  }
+
+  .uxc1-center {
+	  width: 600px;
+	  margin: auto;
+	  height: 151px;
+	  margin-top: 100px;
+	  position: relative;
+    top: -1rem;
+    left: 5rem;
+  }
+
+	.uxc1-center h1 {
+	  font-family: "Roboto", sans-serif;
+	  font-style: normal;
+	  font-weight: 900;
+	  line-height: 180px;
+	  font-size: 140px;
+	  letter-spacing: 0.05em;
+	  display: inline-block;
+	  color: #3F3F3F;
+	}
+
+	.uxc1-center h2 {
+	  font-family: "Nunito Sans", sans-serif;
+	  font-weight: 400;
+	  line-height: 120px;
+	  font-size: 70px;
+	  color: #3F3F3F;
+    position: absolute;
+    left: 205px;
+	}
+
+	.uxc1-line {
+	  background-color: #008DD3;
+	  height: 15px;
+	  position: absolute;
+    bottom: 43px;
+    left: 205px;
+	}
+
+	.uxc1-center h3 {
+	  color: #ABABAB;
+	  font-family: "Rubik", sans-serif;
+	  font-size: 24px;
+	  font-weight: 500;
+    position: absolute;
+    right: 0;
+    width: 15rem;
+  }
+
+  .uxc1-text {
+	  color: #707070;
+	  opacity: 0.85;
+	  font-size: 20px;
+	  margin: auto;
+	  margin-top: -1rem;
+	  padding-left: 70px;
+	  width: 500px;
+	  font: 400 18px/34px "Rubik", sans-serif;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #uxc-1 {
+	  height: 650px;
+	}
+
+  .uxc1-img1 {
+	  background-image: url("./assets/pic1.png");
+	  width: 140px;
+	  height: 280px;
+	  position: absolute;
+	  left: 20px;
+    top: 0px;
+    background-size: cover;
+	}
+
+	.uxc1-img2 {
+	  background-image: url("./assets/Asset18.png");
+	  width: 200px;
+	  height: 130px;
+    position: absolute;
+    top: 400px;
+    right: 30px;
+    background-size: cover;
+	}
+
+	.uxc1-img3 {
+	  background-image: url("./assets/Asset11.png");
+	  width: 300px;
+	  height: 250px;
+	  position: absolute;
+	  right: -3.5rem;
+    top: 11rem;
+    background-size: cover;
+  }
+
+  .uxc1-center {
+	  width: 550px;
+	  margin: auto;
+	  height: 151px;
+	  margin-top: 100px;
+	  position: relative;
+    top: -3rem;
+    left: 5rem;
+  }
+
+	.uxc1-center h1 {
+	  font-family: "Roboto", sans-serif;
+	  font-style: normal;
+	  font-weight: 900;
+	  line-height: 180px;
+	  font-size: 80px;
+	  letter-spacing: 0.05em;
+	  display: inline-block;
+	  color: #3F3F3F;
+	}
+
+	.uxc1-center h2 {
+	  font-family: "Nunito Sans", sans-serif;
+	  font-weight: 400;
+	  line-height: 155px;
+	  font-size: 55px;
+	  color: #3F3F3F;
+    position: absolute;
+    left: 125px;
+	}
+
+	.uxc1-line {
+	  background-color: #008DD3;
+    height: 7px;
+    width: 188px;
+	  position: absolute;
+    left: 128px;
+	}
+
+	.uxc1-center h3 {
+	  color: #ABABAB;
+	  font-family: "Rubik", sans-serif;
+	  font-size: 20px;
+	  font-weight: 500;
+    position: absolute;
+    top: 7rem;
+    left: 128px;
+    width: 15rem;
+  }
+
+  .uxc1-text {
+	  color: #707070;
+	  opacity: 0.85;
+	  margin: auto;
+	  margin-top: -3.5rem;
+	  padding-left: 110px;
+	  width: 500px;
+	  font: 400 16px/34px "Rubik", sans-serif;
+  }
+
+  .regbutton {
+    z-index: 0;
+    top: 350px;
+    position: absolute;
+    left: 11.75rem;
+    margin-top: -0.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .uxc1-img1 {
+    width: 220px;
+    height: 92px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-size: cover;
+  }
+
+  .uxc1-center {
+	  width: 500px;
+	  margin: auto;
+	  height: 151px;
+	  margin-top: 100px;
+	  position: relative;
+    top: 2rem;
+    left: 3.5rem;
+  }
+
+	.uxc1-center h1 {
+	  font-family: "Roboto", sans-serif;
+	  font-style: normal;
+	  font-weight: 900;
+	  line-height: 180px;
+	  font-size: 60px;
+	  letter-spacing: 0.05em;
+	  display: inline-block;
+	  color: #3F3F3F;
+	}
+
+	.uxc1-center h2 {
+	  font-family: "Nunito Sans", sans-serif;
+	  font-weight: 400;
+	  line-height: 160px;
+	  font-size: 35px;
+	  color: #3F3F3F;
+    position: absolute;
+    left: 95px;
+	}
+
+	.uxc1-line {
+	  background-color: #008DD3;
+    height: 5px;
+    width: 188px;
+    position: absolute;
+    left: 98px;
+	}
+
+	.uxc1-center h3 {
+	  color: #ABABAB;
+	  font-family: "Rubik", sans-serif;
+	  font-size: 20px;
+	  font-weight: 500;
+    position: absolute;
+    top: 7rem;
+    left: 98px;
+    width: 15rem;
+  }
+
+  .uxc1-text {
+	  color: #707070;
+	  opacity: 0.85;
+	  margin: auto;
+    margin-top: 1.5rem;
+    position: absolute;
+	  left: -3rem;
+	  width: 335px;
+	  font: 400 14px/30px "Rubik", sans-serif;
+  }
+
+  .regbutton {
+    z-index: 0;
+    top: 350px;
+    position: absolute;
+    left: 4rem;
+    margin-top: 5rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #uxc-1 {
+    height: 570px;
+    margin-top: 7rem;
+  }
+
+  .uxc1-img3 {
+    width: 240px;
+    height: 198px;
+    position: absolute;
+    right: -50px;
+    top: 250px;
+    background-size: cover;
+  }
+
+  .uxc1-img2 {
+    width: 188px;
+    height: 135px;
+    position: absolute;
+    top: 27rem;
+    right: 20px;
+    background-size: cover;
+  }
+
+  .uxc1-center {
+    width: 20px;
+    height: 70px;
+    position: absolute;
+    top: -0.75rem;
+    left: 2.5rem;
+  }
+
+  .uxc1-center h1 {
+    font-size: 50px;
+    line-height: 56px;
+  }
+
+  .uxc1-center h2 {
+    font-size: 36px;
+    line-height: 43px;
+    position: absolute;
+    top: 0;
+    left: 75px;
+  }
+
+  .uxc1-line {
+    height: 5px;
+    width: 122px;
+    position: absolute;
+    bottom: 25px;
+    left: 78px;
+  }
+
+  .uxc1-center h3 {
+    font-size: 12px;
+    position: absolute;
+    top: 50px;
+    left: 78px;
+  }
+
+  .uxc1-text {
+    width: 300px;
+    font: 400 12px/19px "Rubik", sans-serif;
+    position: absolute;
+    top: 8.5rem;
+    left: -4.25rem;
+  }
+
+  .regbutton {
+    z-index: 0;
+    width: 125px;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    top: 250px;
+    position: absolute;
+    left: 2.5rem;
+  }
+
+  .uxchill-footer h4 {
+    display: none;
+  }
+
+  .uxchill-footer {
+    right: 190px;
+    display: none;
+  }
+
+  .sqlogo {
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+  }
+}
