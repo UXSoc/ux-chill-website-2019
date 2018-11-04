@@ -109,10 +109,10 @@ body {
 
 	.uxc1-img3 {
 	  background-image: url("./assets/Asset11.png");
-	  width: 562px;
+	  width: 390px;
 	  height: 427px;
 	  position: absolute;
-	  right: -122px;
+	  right: 0px;
 	  top: 31px;
 	}
 
@@ -441,7 +441,7 @@ body {
 
 	#uxc-5 {
 	  background: white;
-	  padding: 90px 0px;
+	  padding: 90px 30px;
 	}
 
 	.uxc5-logo {

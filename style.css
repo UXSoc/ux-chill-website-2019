@@ -7,6 +7,7 @@
     padding: 0px;
     font-size: 12px;
     overflow-x: hidden;
+
   }
 
   #navbar { display: none; }
@@ -76,10 +77,10 @@
   }
 
   .uxc1-img3 {
-    width: 240px;
+    width: 193px;
     height: 198px;
     background-size: 261px;
-    right: -50px;
+    right: 0px;
     top: 205px;
   }
 
@@ -399,6 +400,10 @@
   #uxc-5 {
     background: #f3f3f3;
     padding: 70px 0px;
+  }
+
+  .uxc5-contain{
+    width: 360px;
   }
 
   .uxc5-logo {
