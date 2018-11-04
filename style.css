@@ -164,7 +164,113 @@
 	  padding-left: 70px;
 	  width: 500px;
 	  font: 400 18px/34px "Rubik", sans-serif;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  #uxc-1 {
+	  height: 650px;
 	}
+
+  .uxc1-img1 {
+	  background-image: url("./assets/pic1.png");
+	  width: 140px;
+	  height: 280px;
+	  position: absolute;
+	  left: 20px;
+    top: 0px;
+    background-size: cover;
+	}
+
+	.uxc1-img2 {
+	  background-image: url("./assets/Asset18.png");
+	  width: 200px;
+	  height: 130px;
+    position: absolute;
+    top: 400px;
+    right: 30px;
+    background-size: cover;
+	}
+
+	.uxc1-img3 {
+	  background-image: url("./assets/Asset11.png");
+	  width: 300px;
+	  height: 250px;
+	  position: absolute;
+	  right: -3.5rem;
+    top: 11rem;
+    background-size: cover;
+  }
+
+  .uxc1-center {
+	  width: 550px;
+	  margin: auto;
+	  height: 151px;
+	  margin-top: 100px;
+	  position: relative;
+    top: -3rem;
+    left: 5rem;
+  }
+
+	.uxc1-center h1 {
+	  font-family: "Roboto", sans-serif;
+	  font-style: normal;
+	  font-weight: 900;
+	  line-height: 180px;
+	  font-size: 80px;
+	  letter-spacing: 0.05em;
+	  display: inline-block;
+	  color: #3F3F3F;
+	}
+
+	.uxc1-center h2 {
+	  font-family: "Nunito Sans", sans-serif;
+	  font-weight: 400;
+	  line-height: 155px;
+	  font-size: 55px;
+	  color: #3F3F3F;
+    position: absolute;
+    left: 125px;
+	}
+
+	.uxc1-line {
+	  background-color: #008DD3;
+    height: 7px;
+    width: 188px;
+	  position: absolute;
+    left: 128px;
+	}
+
+	.uxc1-center h3 {
+	  color: #ABABAB;
+	  font-family: "Rubik", sans-serif;
+	  font-size: 20px;
+	  font-weight: 500;
+    position: absolute;
+    top: 7rem;
+    left: 128px;
+    width: 15rem;
+  }
+
+  .uxc1-text {
+	  color: #707070;
+	  opacity: 0.85;
+	  margin: auto;
+	  margin-top: -3.5rem;
+	  padding-left: 110px;
+	  width: 500px;
+	  font: 400 16px/34px "Rubik", sans-serif;
+  }
+
+  .regbutton {
+    z-index: 0;
+    top: 350px;
+    position: absolute;
+    left: 12rem;
+    margin-top: -0.5rem;
+  }
 }
 
 
@@ -190,7 +296,7 @@
     height: 198px;
     position: absolute;
     right: -50px;
-    top: 180px;
+    top: 250px;
     background-size: cover;
   }
 
@@ -198,7 +304,7 @@
     width: 188px;
     height: 135px;
     position: absolute;
-    top: 23rem;
+    top: 27rem;
     right: 20px;
     background-size: cover;
   }
