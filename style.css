@@ -268,20 +268,12 @@
     z-index: 0;
     top: 350px;
     position: absolute;
-    left: 12rem;
+    left: 11.75rem;
     margin-top: -0.5rem;
   }
 }
 
-
-
-
-@media screen and (max-width: 450px) {
-  #uxc-1 {
-    height: 570px;
-    margin-top: 7rem;
-  }
-
+@media screen and (max-width: 600px) {
   .uxc1-img1 {
     width: 220px;
     height: 92px;
@@ -289,6 +281,82 @@
     left: 0;
     top: 0;
     background-size: cover;
+  }
+
+  .uxc1-center {
+	  width: 500px;
+	  margin: auto;
+	  height: 151px;
+	  margin-top: 100px;
+	  position: relative;
+    top: 2rem;
+    left: 3.5rem;
+  }
+
+	.uxc1-center h1 {
+	  font-family: "Roboto", sans-serif;
+	  font-style: normal;
+	  font-weight: 900;
+	  line-height: 180px;
+	  font-size: 60px;
+	  letter-spacing: 0.05em;
+	  display: inline-block;
+	  color: #3F3F3F;
+	}
+
+	.uxc1-center h2 {
+	  font-family: "Nunito Sans", sans-serif;
+	  font-weight: 400;
+	  line-height: 160px;
+	  font-size: 35px;
+	  color: #3F3F3F;
+    position: absolute;
+    left: 95px;
+	}
+
+	.uxc1-line {
+	  background-color: #008DD3;
+    height: 5px;
+    width: 188px;
+    position: absolute;
+    left: 98px;
+	}
+
+	.uxc1-center h3 {
+	  color: #ABABAB;
+	  font-family: "Rubik", sans-serif;
+	  font-size: 20px;
+	  font-weight: 500;
+    position: absolute;
+    top: 7rem;
+    left: 98px;
+    width: 15rem;
+  }
+
+  .uxc1-text {
+	  color: #707070;
+	  opacity: 0.85;
+	  margin: auto;
+    margin-top: 1.5rem;
+    position: absolute;
+	  left: -3rem;
+	  width: 335px;
+	  font: 400 14px/30px "Rubik", sans-serif;
+  }
+
+  .regbutton {
+    z-index: 0;
+    top: 350px;
+    position: absolute;
+    left: 4rem;
+    margin-top: 5rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #uxc-1 {
+    height: 570px;
+    margin-top: 7rem;
   }
 
   .uxc1-img3 {
@@ -339,17 +407,18 @@
   }
 
   .uxc1-center h3 {
-    font-size: 14px;
+    font-size: 12px;
     position: absolute;
-    left: 80px;
+    top: 50px;
+    left: 78px;
   }
 
   .uxc1-text {
-    width: 230px;
+    width: 300px;
     font: 400 12px/19px "Rubik", sans-serif;
     position: absolute;
-    top: 11rem;
-    padding-left: 40px;
+    top: 8.5rem;
+    left: -4.25rem;
   }
 
   .regbutton {
@@ -358,10 +427,9 @@
     height: 12px;
     line-height: 12px;
     font-size: 12px;
-    top: 350px;
+    top: 250px;
     position: absolute;
     left: 2.5rem;
-    margin-top: 1.5rem;
   }
 
   .uxchill-footer h4 {
@@ -616,7 +684,7 @@
     margin: auto;
     padding-right: 0px;
     padding-top: 150px;
-    font: 500 21px/25px ""Rubik"", sans-serif;
+    font: 500 21px/25px "Rubik", sans-serif;
   }
 
   .uxc4-button-cont {
@@ -700,15 +768,15 @@
   }
 
   #talkmodal h1 {
-    font: 500 24px/28px ""Rubik"", sans-serif;
+    font: 500 24px/28px "Rubik", sans-serif;
   }
 
   #talkmodal h2 {
-    font: 400 16px/19px ""Rubik"", sans-serif;
+    font: 400 16px/19px "Rubik", sans-serif;
   }
 
   #talkmodal p {
-    font: 400 14px/30px ""Rubik"", sans-serif;
+    font: 400 14px/30px "Rubik", sans-serif;
   }
 
   #talkmodal p b {
@@ -718,5 +786,47 @@
 
   .talkregbutton {
     left: 25px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .uxc1-text {
+    width: 280px;
+    font: 400 12px/19px "Rubik", sans-serif;
+    position: absolute;
+    top: 13.5rem;
+    padding-left: 40px;
+  }
+
+  .regbutton {
+    z-index: 0;
+    width: 125px;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    top: 340px;
+    position: absolute;
+    left: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .uxc1-text {
+    width: 230px;
+    font: 400 12px/19px "Rubik", sans-serif;
+    position: absolute;
+    top: 13rem;
+    padding-left: 40px;
+  }
+
+  .regbutton {
+    z-index: 0;
+    width: 125px;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    top: 365px;
+    position: absolute;
+    left: 2.5rem;
   }
 }
