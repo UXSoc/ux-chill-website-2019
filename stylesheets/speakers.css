@@ -1,0 +1,138 @@
+#uxc-2 {
+  background: #008DD3;
+  text-align: center;
+  padding: 60px 0px 120px 0px;
+  width: 100%;
+}
+
+#uxc-2 h1 {
+  margin: 0px;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 3em;
+  margin-bottom: 50px;
+}
+
+.uxc2-container {
+  width: 1040px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+}
+
+.uxc2-panel {
+  width: 270px;
+  background: white;
+  height: 570px;
+  padding: 30px;
+  margin-bottom: 35px;
+  margin-left: 22px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+}
+
+.panel-img {
+  width: 270px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.uxc2-panel h2 {
+  margin: 0px;
+  color: #008DD3;
+  font: 500 16px/23px Rubik, sans-serif;
+}
+
+.uxc2-panel h3 {
+  margin: 10px 0px;
+  font: 500 16px/23px Rubik, sans-serif;
+  color: #3f3f3f;
+}
+
+.uxc2-panel p {
+  margin: 0px;
+  font: 400 12px/20px Rubik, sans-serif;
+  color: #8D959D;
+}
+
+.panel-button {
+  padding: 16px 20px;
+  width: 100px;
+  height: 17px;
+  background: #008DD3;
+  text-align: center;
+  color: #f3f3f3;
+  font: 14px/17px Rubik, sans-serif;
+  border-radius: 7px;
+  box-shadow: 0px 4px 8px rgba(169, 169, 169, 0.3);
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 450px) {
+  #uxc-2 h1 {
+    width: 167px;
+    height: 57px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    color: #f3f3f3;
+    margin: 0px !important;
+  }
+
+  #uxc-2 {
+    background: #008DD3;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .uxc2-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .uxc2-panel {
+    height: 643px;
+    /* margin-left: 16px !important;
+    margin-right: 16px; */
+    margin: 0px !important;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: left;
+    display: grid;
+    grid-template-rows: auto 56px 31px 227px auto;
+
+  }
+
+  .panel-img {
+    /* width: 234px;
+    height: 176px; */
+    margin-bottom: 0px !important;
+  }
+
+  .uxc2-panel h2 {
+    margin-bottom: 16px;
+    width: 234px;
+  }
+
+  .uxc2-panel h3 {
+    width: 234px;
+    margin: 0px !important;
+  }
+
+  .uxc2-panel p {
+    width: 234px;
+    margin-top: 16px;
+  }
+
+}

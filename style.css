@@ -87,20 +87,6 @@
     font-size: 14px;
   }
 
-  #uxc-2 h1 {
-    width: 167px;
-    height: 57px;
-    font-family: 'Rubik', sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 1.2px;
-    color: #f3f3f3;
-    margin: 0px !important;
-  }
-
   .h1 {
     display: flex;
     justify-content: center;
@@ -108,13 +94,8 @@
     padding-bottom: 32px;
   }
 
-  #uxc-2 {
-    background: #008DD3;
-    width: 100%;
-    text-align: center;
-  }
 
-  .uxc2-container, .uxc3-container {
+  .uxc3-container {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -122,77 +103,6 @@
 
   .uxc3-container {
     margin-top: 0px;
-  }
-
-  .uxc2-panel, .uxc2-panel:first-child, .uxc2-panel:nth-child(4) {
-    border-radius: 7px;
-    background-color: #ffffff;
-    margin: 0 19px 32px 19px;
-    padding: 32px 24px 32px 24px;
-    width: 234px;
-  }
-
-  .panel-img {
-    width: 234px;
-    height: 176px;
-    background-size: 234px;
-  }
-
-  .uxc2-panel h2 {
-    font-family: 'Rubik', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.41;
-    letter-spacing: normal;
-    color: #008dd3;
-  }
-
-  .uxc2-panel h3 {
-    font-family: 'Rubik', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.41;
-    letter-spacing: normal;
-    color: #3f3f3f;
-    text-align: left;
-  }
-
-  .uxc2-panel p {
-    font-family: 'Rubik', sans-serif;
-    font-size: 12px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.64;
-    letter-spacing: normal;
-    color: #8d959d;
-    text-align: justify;
-  }
-
-  .uxc2-panel a {
-    font-family: 'Rubik', sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #f3f3f3;
-    text-decoration: none;
-  }
-
-  .panel-button {
-    width: 80px;
-    border-radius: 7px;
-    box-shadow: 0 4px 8px 0 rgba(169, 169, 169, 0.3);
-    background-color: #008dd3;
-    padding: 16px 32px 16px 32px;
-    bottom: 35px;
-    left: 25px;
   }
 
   #uxc-3 {
