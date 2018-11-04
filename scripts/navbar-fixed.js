@@ -24,6 +24,17 @@ $("a[href^='#']").on("click", function() {
   $("#mobilenavlinks").hide();
 });
 
+// only show logo on scroll
+$(window).scroll(function() {
+  var x = $(window).width();
+  var y = $(this).scrollTop();
+  if (x <= 1085 && y > 200) {
+    $(".headlogo").fadeIn(300);
+  } else if (x <= 1085 && y < 200) {
+    $(".headlogo").fadeOut(300);
+  }
+});
+
 // get target position and scrolls to it
 function scrollToSection(self) {
   // get the target href
