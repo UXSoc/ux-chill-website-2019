@@ -5,10 +5,11 @@ body {
 	  overflow-x: hidden;
 }
 
-	a {
-	  text-decoration: none;
-	  color: inherit;
-	}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 	#uxc-1 {
 	  height: 720px;
@@ -404,7 +405,6 @@ body {
 	  width: 350px;
 	  height: 420px;
 	  overflow: hidden;
-	  /* position: absolute; */
 	}
 
 	.sp-img {
@@ -420,9 +420,7 @@ body {
 	.sp-right {
 	  width: 350px;
 	  height: 400px;
-		margin-right: auto;
-		margin-left: 24px;
-	  /* position: absolute; */
+		margin: auto auto auto 24px;
 	}
 
 	.sp-right h1 {
@@ -431,13 +429,14 @@ body {
 	  color: #008DD3;
 	  text-align: left;
 		margin-top: 24px;
+		margin-bottom: 16px;
 	}
 
 	.sp-right h2 {
 	  margin: 0px;
 	  font: 500 16px/19px "Rubik", sans-serif;
 	  color: #3F3F3F;
-	  text-align: left;
+	  text-align: justify;
 	  margin: 16px 0px;
 	}
 
