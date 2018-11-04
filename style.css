@@ -1,112 +1,6 @@
 
 
 @media screen and (max-width: 425px) {
-  .uxc3-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .uxc3-container {
-    margin-top: 0px;
-  }
-
-  #uxc-3 {
-    background: #EAEDF1;
-    width: 100%;
-    text-align: center;
-  }
-
-  #uxc-3 h1 {
-    width: 125px;
-    height: 57px;
-    font-family: "Rubik", sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 1.2px;
-    color: #3F3F3F;
-    margin: 0px !important;
-  }
-
-  .uxc3-box {
-    padding: 40px 24px 40px 24px;
-    margin: 0 20px 32px 20px;
-    background: white;
-    border-radius: 10px;
-    width: 234px;
-  }
-
-  .uxc3-box h2 {
-    margin: 0px;
-    font-weight: 500px;
-    font-size: 32px;
-    margin-bottom: 16px;
-    font-family: "Rubik", sans-serif;
-    color: #008DD3;
-    text-align: left;
-  }
-
-  .uxc3-box h3 {
-    margin: 0px;
-    font-size: 24px;
-    font-family: "Rubik", sans-serif;
-    text-align: left;
-    color: #3f3f3f;
-  }
-
-  .uxc3-box h4 {
-    margin: 0px;
-    font: 400 18px "Rubik", sans-serif;
-    color: #ababab;
-    text-align: left;
-    margin-top: 16px;
-  }
-
-  .uxc3-box p {
-    margin: 0px;
-    font-family: "Rubik", sans-serif;
-    font-size: 14px;
-    text-align: justify;
-    color: #5f5f5f;
-    margin-top: 16px;
-  }
-
-  .uxc3-box a {
-    font-family: "Rubik", sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #f3f3f3;
-    text-decoration: none;
-  }
-
-  .uxc3-box:nth-child(1) {
-	  margin-left: auto;
-	}
-
-  .box-button {
-    width: 120px;
-    border-radius: 7px;
-    box-shadow: 0 4px 8px 0 rgba(169, 169, 169, 0.3);
-    background-color: #008dd3;
-    padding: 16px 24px 16px 24px;
-    left: 24px;
-    bottom: 24px;
-  }
-
-  .uxc3-img1 {
-    width: 200px;
-    height: 250px;
-    background-size: 380px;
-    top: -130px;
-  }
-
   #uxc-4 {
     height: 590px;
   }
@@ -213,47 +107,8 @@
   }
 }
 
-@media screen and (max-width: 375px) {
-  .uxc1-text {
-    width: 280px;
-    font: 400 12px/19px "Rubik", sans-serif;
-    position: absolute;
-    top: 13.5rem;
-    padding-left: 40px;
-  }
-
-  .regbutton {
-    z-index: 0;
-    width: 125px;
-    height: 12px;
-    line-height: 12px;
-    font-size: 12px;
-    top: 340px;
-    position: absolute;
-    left: 2.5rem;
-  }
-}
 
 @media screen and (max-width: 320px) {
-  .uxc1-text {
-    width: 230px;
-    font: 400 12px/19px "Rubik", sans-serif;
-    position: absolute;
-    top: 13rem;
-    padding-left: 40px;
-  }
-
-  .regbutton {
-    z-index: 0;
-    width: 125px;
-    height: 12px;
-    line-height: 12px;
-    font-size: 12px;
-    top: 365px;
-    position: absolute;
-    left: 2.5rem;
-  }
-
   .uxc4-img2 {
     top: -80px;
   }
@@ -268,17 +123,5 @@
 
   .uxc4-head {
     padding-top: 150px;
-  }
-}
-
-@media screen and (min-width: 1086px) {
-  .headlogo {
-    display: block;
-    background-size: 188px;
-	  width: 188px;
-	  height: 50px;
-	  position: absolute;
-	  top: 30px;
-	  left: 60px;
   }
 }

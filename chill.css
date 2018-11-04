@@ -11,93 +11,6 @@ a {
   color: inherit;
 }
 
-
-	#uxc-3 {
-	  background: #EAEDF1;
-	  padding: 90px 0px 120px 0px;
-	  position: relative;
-	}
-
-	#uxc-3 h1 {
-	  margin: 0px;
-	  text-align: center;
-	  font: 500 36px/43px "Rubik", sans-serif;
-	  color: #3f3f3f;
-	}
-
-	.uxc3-container {
-	  margin: auto;
-	  width: 1050px;
-	  margin-top: 80px;
-		display: grid;
-		grid-template-columns: auto auto auto;
-		grid-template-rows: auto auto;
-	}
-
-	.uxc3-box {
-	  width: 233px;
-	  height: 270px;
-	  padding: 60px 40px;
-	  background: white;
-	  display: inline-block;
-	  vertical-align: top;
-	  position: relative;
-	  border-radius: 10px;
-		margin-left: 45px
-	}
-
-	.uxc3-box:nth-child(1) {
-	  margin-left: 0px;
-	}
-
-	.uxc3-box h2 {
-	  margin: 0px;
-	  font: 500 34px/43px "Rubik", sans-serif;
-	  color: #008DD3;
-	}
-
-	.uxc3-box h3 {
-	  margin: 0px;
-	  font: 500 18px/24px "Rubik", sans-serif;
-	  color: #3f3f3f;
-	}
-
-	.uxc3-box h4 {
-	  margin: 0px;
-	  font: 400 14px/17px "Rubik", sans-serif;
-	  color: #ababab;
-	  margin-top: 15px;
-	}
-
-	.uxc3-box p {
-	  margin: 0px;
-	  margin-top: 15px;
-	  font: 400 14px/17px "Rubik", sans-serif;
-	  color: #5f5f5f;
-	}
-
-	.box-button {
-	  font: 400 16px/16px "Rubik", sans-serif;
-	  color: white;
-	  text-align: center;
-	  background: #008DD3;
-	  width: 168px;
-	  padding: 16px 0px;
-	  border-radius: 7px;
-	  box-shadow: 0px 4px 8px rgba(169, 169, 169, 0.3);
-	  position: absolute;
-	  bottom: 60px;
-	  left: 40px;
-	}
-
-	.uxc3-img1 {
-	  width: 307px;
-	  height: 795px;
-	  background-image: url("./assets/Asset17.png");
-	  position: absolute;
-	  top: -170px;
-	}
-
 	#uxc-4 {
 	  position: relative;
 	  background: #008DD3;
@@ -161,7 +74,7 @@ a {
 	  left: 40px;
 	}
 
-	
+
 
 	/* .closebutton { position: absolute; top: 15px; right: 15px; }
 		.closebutton span { color: #ababab; font-size: 30px}

@@ -497,3 +497,46 @@
     background-size: 50px;
   }
 }
+
+
+@media screen and (max-width: 375px) {
+  .uxc1-text {
+    width: 280px;
+    font: 400 12px/19px "Rubik", sans-serif;
+    position: absolute;
+    top: 13.5rem;
+    padding-left: 40px;
+  }
+
+  .regbutton {
+    z-index: 0;
+    width: 125px;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    top: 340px;
+    position: absolute;
+    left: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .uxc1-text {
+    width: 230px;
+    font: 400 12px/19px "Rubik", sans-serif;
+    position: absolute;
+    top: 13rem;
+    padding-left: 40px;
+  }
+
+  .regbutton {
+    z-index: 0;
+    width: 125px;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    top: 365px;
+    position: absolute;
+    left: 2.5rem;
+  }
+}

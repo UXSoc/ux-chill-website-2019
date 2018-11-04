@@ -142,3 +142,15 @@
     cursor: pointer;
   }
 }
+
+@media screen and (min-width: 1086px) {
+  .headlogo {
+    display: block;
+    background-size: 188px;
+	  width: 188px;
+	  height: 50px;
+	  position: absolute;
+	  top: 30px;
+	  left: 60px;
+  }
+}
