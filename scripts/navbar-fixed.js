@@ -28,10 +28,10 @@ $(window).scroll(function() {
   var x = $(window).width();
   var y = $(this).scrollTop();
 
-  if ((x < 1085 && y > 200) || (x > 1085 && y >= 0)) {
-    $(".headlogo").fadeIn(300);
-  } else if (x < 1085 && y < 200) {
-    $(".headlogo").fadeOut(300);
+  if ((x < 1085 && y > 100) || (x > 1024 && y >= 0)) {
+    $(".headlogo").fadeIn(200);
+  } else if (x < 1024 && y < 100) {
+    $(".headlogo").fadeOut(200);
   }
 });
 
