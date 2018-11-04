@@ -504,8 +504,8 @@
     width: 280px;
     font: 400 12px/19px "Rubik", sans-serif;
     position: absolute;
-    top: 13.5rem;
-    padding-left: 40px;
+    top: 8.75rem;
+    left: -4.25rem;
   }
 
   .regbutton {
@@ -514,7 +514,7 @@
     height: 12px;
     line-height: 12px;
     font-size: 12px;
-    top: 340px;
+    top: 16rem;
     position: absolute;
     left: 2.5rem;
   }
@@ -525,8 +525,8 @@
     width: 230px;
     font: 400 12px/19px "Rubik", sans-serif;
     position: absolute;
-    top: 13rem;
-    padding-left: 40px;
+    top: 8.5rem;
+    left: 0.25rem;
   }
 
   .regbutton {
@@ -535,7 +535,7 @@
     height: 12px;
     line-height: 12px;
     font-size: 12px;
-    top: 365px;
+    top: 18rem;
     position: absolute;
     left: 2.5rem;
   }
