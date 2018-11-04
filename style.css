@@ -638,52 +638,6 @@
     top: -130px;
   }
 
-  #uxc-4 {
-    height: 590px;
-  }
-
-  .uxc4-img2 {
-    width: 109px;
-    height: 166px;
-    background-size: 109px;
-    top: -50px;
-  }
-
-  .uxc4-img1 {
-    width: 329px;
-    background-size: 329px;
-    height: 238px;
-    bottom: 20px;
-    right: -20px;
-  }
-
-  .uxc4-img3 {
-    width: 85px;
-    height: 136px;
-    background-size: 85px;
-    top: 410px;
-    left: 0px;
-  }
-
-  .uxc4-head {
-    text-align: center;
-    width: 60%;
-    margin: auto;
-    padding-right: 0px;
-    padding-top: 150px;
-    font: 500 21px/25px "Rubik", sans-serif;
-  }
-
-  .uxc4-button-cont {
-    padding-right: 0px;
-    width: 100%;
-  }
-
-  .uxc4-button {
-    margin: auto;
-    margin-top: 30px;
-  }
-
   #modal-window {
     top: 30px;
     left: 30px;
