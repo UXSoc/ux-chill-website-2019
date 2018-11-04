@@ -53,7 +53,7 @@
     text-decoration: none;
     display: block;
     background: rgba(169,169,169,0.8);
-    font: 400 16px/19px ""Rubik"", sans-serif;
+    font: 400 16px/19px "Rubik", sans-serif;
     transition: 0.3s all ease-in-out;
   }
 
@@ -468,13 +468,8 @@
     padding-bottom: 32px;
   }
 
-  #uxc-2 {
-    background: #008DD3;
-    width: 100%;
-    text-align: center;
-  }
 
-  .uxc2-container, .uxc3-container {
+  .uxc3-container {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -510,7 +505,7 @@
   }
 
   .uxc2-panel h3 {
-    font-family: '"Rubik"', sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 16px;
     font-weight: 500;
     font-style: normal;
@@ -522,7 +517,7 @@
   }
 
   .uxc2-panel p {
-    font-family: '"Rubik"', sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 12px;
     font-weight: normal;
     font-style: normal;
@@ -534,7 +529,7 @@
   }
 
   .uxc2-panel a {
-    font-family: '"Rubik"', sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -564,7 +559,7 @@
   #uxc-3 h1 {
     width: 125px;
     height: 57px;
-    font-family: '"Rubik"', sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 24px;
     font-weight: 500;
     font-style: normal;
@@ -588,7 +583,7 @@
     font-weight: 500px;
     font-size: 32px;
     margin-bottom: 16px;
-    font-family: '"Rubik"', sans-serif;
+    font-family: "Rubik", sans-serif;
     color: #008DD3;
     text-align: left;
   }
@@ -596,14 +591,14 @@
   .uxc3-box h3 {
     margin: 0px;
     font-size: 24px;
-    font-family: '"Rubik"', sans-serif;
+    font-family: "Rubik", sans-serif;
     text-align: left;
     color: #3f3f3f;
   }
 
   .uxc3-box h4 {
     margin: 0px;
-    font: 400 18px '"Rubik"', sans-serif;
+    font: 400 18px "Rubik", sans-serif;
     color: #ababab;
     text-align: left;
     margin-top: 16px;
@@ -611,7 +606,7 @@
 
   .uxc3-box p {
     margin: 0px;
-    font-family: '"Rubik"', sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 14px;
     text-align: justify;
     color: #5f5f5f;
@@ -619,7 +614,7 @@
   }
 
   .uxc3-box a {
-    font-family: '"Rubik"', sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -698,8 +693,12 @@
   }
 
   #uxc-5 {
-    background: #f3f3f3;
+    background: white;
     padding: 70px 0px;
+  }
+
+  .uxc5-contain{
+    width: 360px;
   }
 
   .uxc5-logo {
@@ -828,5 +827,21 @@
     top: 365px;
     position: absolute;
     left: 2.5rem;
+  }
+
+  .uxc4-img2 {
+    top: -80px;
+  }
+
+  .uxc4-img1 {
+    right: -30px;
+  }
+
+  .uxc4-img3 {
+    left: -5px;
+  }
+
+  .uxc4-head {
+    padding-top: 150px;
   }
 }
