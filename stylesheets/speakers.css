@@ -26,16 +26,15 @@
 .uxc2-panel {
   width: 270px;
   background: white;
-  height: 570px;
+  height: 500px;
   padding: 30px;
   border-radius: 8px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-align: left;
   margin-bottom: 40px;
   margin-left: 12px;
   margin-right: 12px;
   display: grid;
-  grid-template-rows: 216px 32px 32px 240px auto;
+  grid-template-rows: 216px 32px 32px 170px auto;
 }
 
 .panel-img {
@@ -60,6 +59,7 @@
   height: 16px;
   margin-bottom: 16px;
   line-height: 23px;
+  text-transform: uppercase;
 }
 
 .uxc2-panel p {
@@ -68,7 +68,7 @@
   color: #8D959D;
   max-height: 240px;
   margin-bottom: 16px;
-  line-height: 20px;
+  line-height: 180% !important;
 }
 
 .panel-button {
@@ -83,6 +83,8 @@
   box-shadow: 0px 4px 8px rgba(169, 169, 169, 0.3);
   cursor: pointer;
 }
+
+
 
 @media screen and (max-width: 1100px) and (min-width: 720px) {
   .uxc2-container {
@@ -113,10 +115,9 @@
     margin-bottom: 32px;
     padding: 24px;
     border-radius: 8px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-align: left;
     display: grid;
-    grid-template-rows: 216px 32px 31px 227px auto;
+    grid-template-rows: 216px 32px 31px 150px auto;
   }
 
   .panel-button {
@@ -139,7 +140,7 @@
 
   .uxc2-panel {
     width: 73vw;
-    grid-template-rows: 216px 32px 48px 200px auto;
+    grid-template-rows: 216px 40px 48px 120px auto;
   }
 
   .panel-img {
@@ -151,11 +152,12 @@
   }
 
   .uxc2-panel h3 {
-    margin-top: 16px !important;
+    margin-top: 8px !important;
   }
 
   .uxc2-panel p {
     max-height: 200px !important;
+    overflow: hidden;
   }
 
 

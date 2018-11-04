@@ -11,7 +11,7 @@
   <!-- Facebook Meta -->
   <meta property="og:title" content="UX&Chill 2018 – User Experience Society">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="./assets/uxchill-image.png">
+  <meta property="og:image" content="https://uxchill-website.herokuapp.com/">
   <meta property="og:description" content="description" content="Learn more about innovation, design-thinking, and all about user experience (UX) in this three-day workshop which will unfold over the month of November. UX&Chill aims to promote UX and its uses to various demographics, and invite experts to share
     about their expertise and journey in the UX industry. Make art work. Chill with UX.">
 
@@ -33,7 +33,11 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="chill.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./stylesheets/nav.css">
+  <link rel="stylesheet" href="./stylesheets/landing.css">
   <link rel="stylesheet" href="./stylesheets/speakers.css">
+  <link rel="stylesheet" href="./stylesheets/schedule.css">
+  <link rel="stylesheet" href="./stylesheets/modals.css">
   <link rel="stylesheet" href="./stylesheets/footer.css">
   <link rel="stylesheet" href="./stylesheets/contact.css">
   <title>UX&Chill 2018 – User Experience Society</title>
@@ -277,9 +281,7 @@
         <h2>Designing Products for Inclusivity</h2>
         <h3>Kris Mago</h3>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer semper risus id massa convallis, at tempor ipsum auctor. Nam ultricies, lectus in rhoncus faucibus, leo diam placerat elit, ut sollicitudin metus ex vitae lectus. Morbi in cursus
-          massa. Aliquam eget ante viverra, sollicitudin nibh in, vestibulum elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer semper risus id massa convallis, at tempor ipsum auctor.</p>
-
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quibusdam in, asperiores vel quod quas. Delectus dicta error fuga possimus?</p>
         <div class="modal-link" data-modal-target="speaker3-popup">
           <div class="panel-button">Learn More</div>
         </div>
@@ -306,9 +308,7 @@
         <h2>Design for Social Impact</h2>
         <h3>Roxy Navarro</h3>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer semper risus id massa convallis, at tempor ipsum auctor. Nam ultricies, lectus in rhoncus faucibus, leo diam placerat elit, ut sollicitudin metus ex vitae lectus. Morbi in cursus
-          massa. Aliquam eget ante viverra, sollicitudin nibh in, vestibulum elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer semper risus id massa convallis, at tempor ipsum auctor.</p>
-
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem consequatur laborum commodi deserunt, quaerat amet soluta cum labore. Reiciendis, quod.</p>
         <div class="modal-link" data-modal-target="speaker5-popup">
           <div class="panel-button">Learn More</div>
         </div>
@@ -321,9 +321,7 @@
         <h2>Design for Innovation</h2>
         <h3>Dae Lee</h3>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer semper risus id massa convallis, at tempor ipsum auctor. Nam ultricies, lectus in rhoncus faucibus, leo diam placerat elit, ut sollicitudin metus ex vitae lectus. Morbi in cursus
-          massa. Aliquam eget ante viverra, sollicitudin nibh in, vestibulum elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer semper risus id massa convallis, at tempor ipsum auctor.</p>
-
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium impedit ducimus ipsa incidunt officia minus totam ea dolores. Nostrum, totam!</p>
         <div class="modal-link" data-modal-target="speaker6-popup">
           <div class="panel-button">Learn More</div>
         </div>
@@ -364,9 +362,6 @@
   <div id="uxc-3">
 
     <!-- talk schedule modals -->
-    <!-- <div class="close-container">
-      <img src="./assets/close.svg" alt="close" class="close">
-    </div> -->
     <div id="talk1-popup" class="modal-content">
 
       <div id="talkmodal">
@@ -460,40 +455,34 @@
 
 <div class="uxc3-container">
 
-<div class="uxc3-box">
+<div class="uxc3-box" id="uxc3-1">
 <h2>November 13</h2>
         <h3>Theme of Event</h3>
         <h4>VENUE HERE | TIME</H4>
 
-        <p>Details of the event are placed here short spiel and possible information layout about the speakers that are going to be talking as well.</p>
-
-        <a href="#" class="modal-link" data-modal-target="talk1-popup">
+        <div class="modal-link" data-modal-target="talk1-popup">
           <div class="box-button">Check Schedule</div>
-        </a>
+        </div>
       </div>
 
-      <div class="uxc3-box">
+      <div class="uxc3-box" id="uxc3-2">
         <h2>November 21</h2>
         <h3>Theme of Event</h3>
         <h4>VENUE HERE | TIME</H4>
 
-        <p>Details of the event are placed here short spiel and possible information layout about the speakers that are going to be talking as well.</p>
-
-        <a href="#" class="modal-link" data-modal-target="talk2-popup">
+        <div class="modal-link" data-modal-target="talk2-popup">
           <div class="box-button">Check Schedule</div>
-        </a>
+        </div>
       </div>
 
-      <div class="uxc3-box">
+      <div class="uxc3-box" id="uxc3-3">
         <h2>November 29</h2>
         <h3>Theme of Event</h3>
         <h4>VENUE HERE | TIME</H4>
 
-        <p>Details of the event are placed here short spiel and possible information layout about the speakers that are going to be talking as well.</p>
-
-        <a href="#" class="modal-link" data-modal-target="talk3-popup">
+        <div class="modal-link" data-modal-target="talk3-popup">
           <div class="box-button">Check Schedule</div>
-        </a>
+        </div>
       </div>
 
     </div>
@@ -523,10 +512,8 @@
 
       <div class="uxc5-follow">
         <h1>Follow Us</h1>
-        <p>Facebook<br> User Experience Society</p>
-        <p>Twitter<br> @uxsocietyph
-        </p>
-        <p>Instagram<br> @uxsociety
+        <p>Facebook<br><a href="https://www.facebook.com/UXSoc/" target="_blank">User Experience Society</a></p>
+        <p>Twitter<br><a href="https://twitter.com/uxsocietyph" target="_blank">@uxsocietyph</a>
         </p>
       </div>
       <div class="uxc5-contact">
