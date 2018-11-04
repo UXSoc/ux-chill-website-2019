@@ -29,13 +29,12 @@
   height: 500px;
   padding: 30px;
   border-radius: 8px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-align: left;
   margin-bottom: 40px;
   margin-left: 12px;
   margin-right: 12px;
   display: grid;
-  grid-template-rows: 216px 32px 32px 160px auto;
+  grid-template-rows: 216px 32px 32px auto auto;
 }
 
 .panel-img {
@@ -113,10 +112,9 @@
     margin-bottom: 32px;
     padding: 24px;
     border-radius: 8px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-align: left;
     display: grid;
-    grid-template-rows: 216px 32px 31px 160px auto;
+    grid-template-rows: 216px 32px 31px auto auto;
   }
 
   .panel-button {
@@ -139,7 +137,7 @@
 
   .uxc2-panel {
     width: 73vw;
-    grid-template-rows: 216px 32px 48px 150px auto;
+    grid-template-rows: 216px 32px 48px auto auto;
   }
 
   .panel-img {
