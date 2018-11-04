@@ -59,6 +59,7 @@
   height: 16px;
   margin-bottom: 16px;
   line-height: 23px;
+  text-transform: uppercase;
 }
 
 .uxc2-panel p {
@@ -67,7 +68,7 @@
   color: #8D959D;
   max-height: 240px;
   margin-bottom: 16px;
-  line-height: 20px;
+  line-height: 180% !important;
 }
 
 .panel-button {
@@ -145,11 +146,11 @@
   }
 
   .uxc2-panel h2 {
-    margin-bottom: 16px !important;
+    margin-bottom: 8px !important;
   }
 
   .uxc2-panel h3 {
-    margin-top: 16px !important;
+    margin-top: 8px !important;
   }
 
   .uxc2-panel p {
