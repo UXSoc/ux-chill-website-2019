@@ -23,21 +23,6 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 1100px) and (min-width: 720px) {
-  .uxc2-container {
-    margin: auto !important;
-    width: 100%;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto;
-    justify-content: center;
-  }
-
-  .panel-button {
-    margin-top: 16px;
-  }
-}
-
 .uxc2-panel {
   width: 270px;
   background: white;
@@ -96,6 +81,22 @@
   font: 14px/17px Rubik, sans-serif;
   border-radius: 7px;
   box-shadow: 0px 4px 8px rgba(169, 169, 169, 0.3);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1100px) and (min-width: 720px) {
+  .uxc2-container {
+    margin: auto !important;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+  }
+
+  .panel-button {
+    margin-top: 16px;
+  }
 }
 
 @media screen and (max-width: 720px) {

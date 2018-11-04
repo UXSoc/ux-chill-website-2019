@@ -5,9 +5,6 @@ body {
 	  overflow-x: hidden;
 }
 
-button, li {
-	cursor: pointer;
-}
 
 a {
   text-decoration: none;
