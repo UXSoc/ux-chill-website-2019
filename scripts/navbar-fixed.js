@@ -25,12 +25,25 @@ $("a[href^='#']").on("click", function() {
 });
 
 // only show logo on scroll
+// $(window).scroll(function() {
+//   var x = $(window).width();
+//   var y = $(this).scrollTop();
+//   if (x <= 1085 && y > 200) {
+//     $(".headlogo").show();
+//   } else if (x <= 1085 && y < 200) {
+//     $(".headlogo").hide();
+//   } else if (x > 1085) {
+//     $(".headlogo").show();
+//   }
+// });
+
 $(window).scroll(function() {
   var x = $(window).width();
   var y = $(this).scrollTop();
-  if (x <= 1085 && y > 200) {
+
+  if ((x < 1085 && y > 100) || (x > 1085 && y >= 0)) {
     $(".headlogo").fadeIn(300);
-  } else if (x <= 1085 && y < 200) {
+  } else if (x < 1085 && y < 100) {
     $(".headlogo").fadeOut(300);
   }
 });
