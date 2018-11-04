@@ -1,12 +1,9 @@
 body {
-		left: 0;
-		top: 0;
-	  margin: 0px;
-	  padding: 0px;
+	  margin: 0;
+	  padding: 0;
 	  font-size: 12px;
 	  overflow-x: hidden;
-		width: 100vw;
-	}
+}
 
 	a {
 	  text-decoration: none;
@@ -20,10 +17,9 @@ body {
 	}
 
 	#navbar {
-	  width: 100%;
+	  width: 100vw;
 	  position: fixed;
-	  top: 0px;
-	  left: 0px;
+	  top: 0;
 	  z-index: 99;
 	  height: 115px;
 	  background: white;
@@ -57,7 +53,7 @@ body {
 	  font-size: 16px;
 	  color: #3B3E42;
 	  margin-left: 80px;
-	  font-family: Rubik;
+	  font-family: "Rubik", sans-serif;
 	  text-decoration: none;
 	}
 
@@ -79,7 +75,7 @@ body {
 	  width: 148px;
 	  text-align: center;
 	  padding: 16px 0px;
-	  font: 400 16px/19px Rubik;
+	  font: 400 16px/19px "Rubik", sans-serif;
 	  cursor: pointer;
 	  border: none;
 	  position: fixed;
@@ -88,15 +84,13 @@ body {
 		z-index: 100;
 	}
 
-
-
 	.uxc1-img1 {
 	  background-image: url("./assets/pic1.png");
 	  width: 565px;
 	  height: 714px;
 	  position: absolute;
 	  left: 50px;
-	  top: 0px;
+		top: 0px;
 	}
 
 	.uxc1-img2 {
@@ -105,7 +99,7 @@ body {
 	  height: 286px;
 	  position: absolute;
 	  right: 75px;
-	  bottom: 75px;
+		bottom: 75px;
 	}
 
 	.uxc1-img3 {
@@ -113,8 +107,8 @@ body {
 	  width: 390px;
 	  height: 427px;
 	  position: absolute;
-	  right: 0px;
-	  top: 31px;
+	  right: -122px;
+		top: 31px;
 	}
 
 	.uxc1-center {
@@ -128,7 +122,7 @@ body {
 
 	.uxc1-center h1 {
 	  margin: 0px;
-	  font-family: Roboto;
+	  font-family: "Roboto", sans-serif;
 	  font-style: normal;
 	  font-weight: 900;
 	  line-height: 156px;
@@ -139,7 +133,7 @@ body {
 	}
 
 	.uxc1-center h2 {
-	  font-family: Nunito Sans;
+	  font-family: "Nunito Sans", sans-serif;
 	  font-weight: 400;
 	  line-height: 83px;
 	  font-size: 110px;
@@ -162,7 +156,7 @@ body {
 
 	.uxc1-center h3 {
 	  color: #ABABAB;
-	  font-family: Rubik;
+	  font-family: "Rubik", sans-serif;
 	  font-size: 24px;
 	  margin: 0px;
 	  font-weight: 500;
@@ -172,14 +166,14 @@ body {
 	}
 
 	.uxc1-text {
-	  color: #8D959D;
+	  color: #707070;
 	  opacity: 0.85;
 	  font-size: 20px;
 	  margin: auto;
 	  margin-top: 90px;
 	  padding-left: 70px;
 	  width: 600px;
-	  font: 400 18px/34px Rubik;
+	  font: 400 18px/34px "Rubik", sans-serif;
 	}
 
 	.uxchill-footer {
@@ -192,7 +186,7 @@ body {
 	.uxchill-footer h4 {
 	  color: #ababab;
 	  opacity: 0.7;
-	  font: 500 15px/18px roboto;
+	  font: 500 15px/18px "Roboto", sans-serif;
 	  margin: 0px;
 	  display: inline-block;
 	  position: relative;
@@ -209,6 +203,88 @@ body {
 	  width: 72px;
 	}
 
+	#uxc-2 {
+	  background: #008DD3;
+	  text-align: center;
+	  padding: 60px 0px 120px 0px;
+	}
+
+	#uxc-2 h1 {
+	  margin: 0px;
+	  color: white;
+	  font-family: "Rubik", sans-serif;
+	  font-weight: 500;
+	  font-size: 3em;
+	  margin-bottom: 50px;
+	}
+
+	.uxc2-container {
+	  width: 1040px;
+	  margin: auto;
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-template-rows: auto auto;
+	}
+
+	.uxc2-panel {
+	  width: 270px;
+	  display: inline-block;
+	  vertical-align: top;
+	  background: white;
+	  height: 570px;
+	  padding: 30px;
+	  margin-bottom: 35px;
+	  margin-left: 22px;
+	  border-radius: 8px;
+	  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	  text-align: left;
+	  position: relative;
+	}
+
+	.uxc2-panel:first-child, .uxc2-panel:nth-child(4) {
+	  margin-left: 0px;
+	}
+
+	.panel-img {
+	  width: 270px;
+	  height: 200px;
+	  margin-bottom: 20px;
+	}
+
+	.uxc2-panel h2 {
+	  margin: 0px;
+	  color: #008DD3;
+	  font: 500 16px/23px "Rubik", sans-serif;
+	}
+
+	.uxc2-panel h3 {
+	  margin: 0px;
+	  margin: 10px 0px;
+	  font: 500 16px/23px "Rubik", sans-serif;
+	  color: #3f3f3f;
+	}
+
+	.uxc2-panel p {
+	  margin: 0px;
+	  font: 400 12px/20px "Rubik", sans-serif;
+	  color: #8D959D;
+	}
+
+	.panel-button {
+	  padding: 16px 20px;
+	  width: 100px;
+	  height: 17px;
+	  background: #008DD3;
+	  text-align: center;
+	  color: #f3f3f3;
+	  font: 14px/17px "Rubik", sans-serif;
+	  border-radius: 7px;
+	  box-shadow: 0px 4px 8px rgba(169, 169, 169, 0.3);
+	  position: absolute;
+	  bottom: 30px;
+	  left: 30px;
+	}
+
 	#uxc-3 {
 	  background: #EAEDF1;
 	  padding: 90px 0px 120px 0px;
@@ -218,7 +294,7 @@ body {
 	#uxc-3 h1 {
 	  margin: 0px;
 	  text-align: center;
-	  font: 500 36px/43px Rubik, sans-serif;
+	  font: 500 36px/43px "Rubik", sans-serif;
 	  color: #3f3f3f;
 	}
 
@@ -249,19 +325,19 @@ body {
 
 	.uxc3-box h2 {
 	  margin: 0px;
-	  font: 500 34px/43px Rubik, sans-serif;
+	  font: 500 34px/43px "Rubik", sans-serif;
 	  color: #008DD3;
 	}
 
 	.uxc3-box h3 {
 	  margin: 0px;
-	  font: 500 18px/24px Rubik, sans-serif;
+	  font: 500 18px/24px "Rubik", sans-serif;
 	  color: #3f3f3f;
 	}
 
 	.uxc3-box h4 {
 	  margin: 0px;
-	  font: 400 14px/17px Rubik, sans-serif;
+	  font: 400 14px/17px "Rubik", sans-serif;
 	  color: #ababab;
 	  margin-top: 15px;
 	}
@@ -269,12 +345,12 @@ body {
 	.uxc3-box p {
 	  margin: 0px;
 	  margin-top: 15px;
-	  font: 400 14px/17px Rubik, sans-serif;
+	  font: 400 14px/17px "Rubik", sans-serif;
 	  color: #5f5f5f;
 	}
 
 	.box-button {
-	  font: 400 16px/16px Rubik, sans-serif;
+	  font: 400 16px/16px "Rubik", sans-serif;
 	  color: white;
 	  text-align: center;
 	  background: #008DD3;
@@ -304,7 +380,7 @@ body {
 	.uxc4-head {
 	  padding-top: 200px;
 	  margin: auto;
-	  font: 500 40px/57px Rubik, sans-serif;
+	  font: 500 40px/57px "Rubik", sans-serif;
 	  color: white;
 	  width: 45%;
 	  padding-right: 200px;
@@ -315,7 +391,7 @@ body {
 	  background: white;
 	  width: 168px;
 	  height: 16px;
-	  font: 500 16px/16px Rubik, sans-serif;
+	  font: 500 16px/16px "Rubik", sans-serif;
 	  color: #008DD3;
 	  text-align: center;
 	  padding: 16px 0px;
@@ -433,7 +509,7 @@ body {
 
 	.sp-right h1 {
 	  margin: 0px;
-	  font: 500 21px/30px Rubik;
+	  font: 500 21px/30px "Rubik", sans-serif;
 	  color: #008DD3;
 	  text-align: left;
 		margin-top: 24px;
@@ -441,7 +517,7 @@ body {
 
 	.sp-right h2 {
 	  margin: 0px;
-	  font: 500 16px/19px Rubik;
+	  font: 500 16px/19px "Rubik", sans-serif;
 	  color: #3F3F3F;
 	  text-align: left;
 	  margin: 16px 0px;
@@ -449,10 +525,10 @@ body {
 
 	.sp-right p {
 	  margin: 0px;
-	  font: 400 14px/25px Rubik;
+	  font: 400 14px/25px "Rubik", sans-serif;
 	  color: #8D959D;
 	  text-align: left;
-	  max-height: 225px;
+	  max-height: 350px;
 	  overflow: hidden;
 	}
 
@@ -464,7 +540,7 @@ body {
 	  width: 148px;
 	  text-align: center;
 	  padding: 16px 0px;
-	  font: 400 16px/19px Rubik;
+	  font: 400 16px/19px "Rubik", sans-serif;
 	  cursor: pointer;
 	  text-decoration: none;
 		margin-top: 36px;
@@ -493,14 +569,14 @@ body {
 	  margin: 0px;
 	  color: #008DD3;
 		text-align: center;
-	  font: 500 36px/43px Rubik;
+	  font: 500 36px/43px "Rubik", sans-serif;
 		grid-row: 1/1;
 	}
 
 	.talkmodal h2 {
 	  margin: 0px;
 	  color: black;
-	  font: 400 18px/21px Rubik;
+	  font: 400 18px/21px "Rubik", sans-serif;
 	  text-transform: uppercase;
 	  margin: 16px 0px;
 		grid-row: 2/2;
@@ -508,7 +584,7 @@ body {
 	}
 
 	.talkmodal p {
-	  font: 400 16px/38px Rubik;
+	  font: 400 16px/38px "Rubik", sans-serif;
 	  color: #707070;
 	  text-align: left;
 	  width: 350px;
@@ -533,20 +609,20 @@ body {
 	  width: 136px;
 	  text-align: center;
 	  padding: 16px 0px;
-	  font: 400 14px/17px Rubik;
+	  font: 400 14px/17px "Rubik", sans-serif;
 	  cursor: pointer;
 	  text-decoration: none;
 		grid-row: 4/4;
 		margin-top: 32px;
 	}
 
-	.regbutton:hover, .speaker-button:hover, .panel-button:hover, .talkregbutton:hover, .box-button:hover {
+	.regbutton:hover, .panel-button:hover, .talkregbutton:hover, .box-button:hover {
 	  background: #007dbb;
 	  margin-top: -2px;
 	  margin-bottom: 2px;
 	}
 
-	.regbutton, .speaker-button, .panel-button, .talkregbutton, .box-button, .uxc4-button {
+	.regbutton, .panel-button, .talkregbutton, .box-button, .uxc4-button {
 	  transition: 0.1s all ease-in-out;
 	}
 

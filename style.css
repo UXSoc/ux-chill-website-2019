@@ -1,48 +1,435 @@
-@media screen and (min-width: 320px) and (max-width: 450px) {
-  body {
-    left: 0;
-    top: 0;
-    margin: 0px;
-    padding: 0px;
-    font-size: 12px;
-    overflow-x: hidden;
+@media screen and (max-width: 1024px) {
+  #navbar {
+    height: 95px;
+  }
 
+  .navlinks {
+    display: none;
+  }
+
+  .headlogo {
+    display: none;
+    position: fixed;
+    background-size: 160px;
+    width: 160px;
+    height: 38px;
+    top: 25px;
+    left: 20px;
+  }
+
+  .regbutton {
+    z-index: 0;
+    top: 350px;
+    position: absolute;
+    left: 18.5rem;
+    margin-top: 2.5rem;
+  }
+
+  .mobilenav {
+    width: 100vw;
+	  position: fixed;
+	  top: 60px;
+	  left: 0;
+	  z-index: 99;
+	  height: 15vw;
+	  background: transparent;
+    display: block;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .mobilenav #mobilenavlinks {
+    display: none;
+  }
+
+  /* Style navigation menu links */
+  .mobilenav a {
+    display: block;
+    padding: 16px 16px;
+  }
+
+  #mobilenavlinks a {
+    color: white;
+    padding: 20px 30px;
+    text-decoration: none;
+    display: block;
+    background: rgba(169,169,169,0.8);
+    font: 400 16px/19px "Rubik", sans-serif;
+    transition: 0.3s all ease-in-out;
+  }
+
+  /* Add a grey background color on mouse-over */
+  #mobilenavlinks a:hover {
+    background-color: #008dd3;
+  }
+
+  .fa-bars {
+    display: block;
+    font-size: 24px;
+    position: absolute;
+    top: -25px;
+	  right: 20px;
+    color: #ABABAB;
+    cursor: pointer;
   }
 
   #uxc-1 {
-    height: 570px;
+	  height: 650px;
+	}
+
+  .uxc1-img1 {
+	  background-image: url("./assets/pic1.png");
+	  width: 240px;
+	  height: 480px;
+	  position: absolute;
+	  left: 30px;
+    top: 0px;
+    background-size: cover;
+	}
+
+	.uxc1-img2 {
+	  background-image: url("./assets/Asset18.png");
+	  width: 320px;
+	  height: 200px;
+    position: absolute;
+    top: 300px;
+    right: 30px;
+    background-size: cover;
+	}
+
+	.uxc1-img3 {
+	  background-image: url("./assets/Asset11.png");
+	  width: 400px;
+	  height: 350px;
+	  position: absolute;
+	  right: -70px;
+    top: 0rem;
+    background-size: cover;
   }
 
+  .uxc1-center {
+	  width: 600px;
+	  margin: auto;
+	  height: 151px;
+	  margin-top: 100px;
+	  position: relative;
+    top: -1rem;
+    left: 5rem;
+  }
+
+	.uxc1-center h1 {
+	  font-family: "Roboto", sans-serif;
+	  font-style: normal;
+	  font-weight: 900;
+	  line-height: 180px;
+	  font-size: 140px;
+	  letter-spacing: 0.05em;
+	  display: inline-block;
+	  color: #3F3F3F;
+	}
+
+	.uxc1-center h2 {
+	  font-family: "Nunito Sans", sans-serif;
+	  font-weight: 400;
+	  line-height: 120px;
+	  font-size: 70px;
+	  color: #3F3F3F;
+    position: absolute;
+    left: 205px;
+	}
+
+	.uxc1-line {
+	  background-color: #008DD3;
+	  height: 15px;
+	  position: absolute;
+    bottom: 43px;
+    left: 205px;
+	}
+
+	.uxc1-center h3 {
+	  color: #ABABAB;
+	  font-family: "Rubik", sans-serif;
+	  font-size: 24px;
+	  font-weight: 500;
+    position: absolute;
+    right: 0;
+    width: 15rem;
+  }
+
+  .uxc1-text {
+	  color: #707070;
+	  opacity: 0.85;
+	  font-size: 20px;
+	  margin: auto;
+	  margin-top: -1rem;
+	  padding-left: 70px;
+	  width: 500px;
+	  font: 400 18px/34px "Rubik", sans-serif;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  #uxc-1 {
+	  height: 650px;
+	}
+
+  .uxc1-img1 {
+	  background-image: url("./assets/pic1.png");
+	  width: 140px;
+	  height: 280px;
+	  position: absolute;
+	  left: 20px;
+    top: 0px;
+    background-size: cover;
+	}
+
+	.uxc1-img2 {
+	  background-image: url("./assets/Asset18.png");
+	  width: 200px;
+	  height: 130px;
+    position: absolute;
+    top: 400px;
+    right: 30px;
+    background-size: cover;
+	}
+
+	.uxc1-img3 {
+	  background-image: url("./assets/Asset11.png");
+	  width: 300px;
+	  height: 250px;
+	  position: absolute;
+	  right: -3.5rem;
+    top: 11rem;
+    background-size: cover;
+  }
+
+  .uxc1-center {
+	  width: 550px;
+	  margin: auto;
+	  height: 151px;
+	  margin-top: 100px;
+	  position: relative;
+    top: -3rem;
+    left: 5rem;
+  }
+
+	.uxc1-center h1 {
+	  font-family: "Roboto", sans-serif;
+	  font-style: normal;
+	  font-weight: 900;
+	  line-height: 180px;
+	  font-size: 80px;
+	  letter-spacing: 0.05em;
+	  display: inline-block;
+	  color: #3F3F3F;
+	}
+
+	.uxc1-center h2 {
+	  font-family: "Nunito Sans", sans-serif;
+	  font-weight: 400;
+	  line-height: 155px;
+	  font-size: 55px;
+	  color: #3F3F3F;
+    position: absolute;
+    left: 125px;
+	}
+
+	.uxc1-line {
+	  background-color: #008DD3;
+    height: 7px;
+    width: 188px;
+	  position: absolute;
+    left: 128px;
+	}
+
+	.uxc1-center h3 {
+	  color: #ABABAB;
+	  font-family: "Rubik", sans-serif;
+	  font-size: 20px;
+	  font-weight: 500;
+    position: absolute;
+    top: 7rem;
+    left: 128px;
+    width: 15rem;
+  }
+
+  .uxc1-text {
+	  color: #707070;
+	  opacity: 0.85;
+	  margin: auto;
+	  margin-top: -3.5rem;
+	  padding-left: 110px;
+	  width: 500px;
+	  font: 400 16px/34px "Rubik", sans-serif;
+  }
+
+  .regbutton {
+    z-index: 0;
+    top: 350px;
+    position: absolute;
+    left: 11.75rem;
+    margin-top: -0.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .uxc1-img1 {
     width: 220px;
     height: 92px;
-    background-size: 300px;
-    left: 0px;
-    top: -60px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-size: cover;
+  }
+
+  .uxc1-center {
+	  width: 500px;
+	  margin: auto;
+	  height: 151px;
+	  margin-top: 100px;
+	  position: relative;
+    top: 2rem;
+    left: 3.5rem;
+  }
+
+	.uxc1-center h1 {
+	  font-family: "Roboto", sans-serif;
+	  font-style: normal;
+	  font-weight: 900;
+	  line-height: 180px;
+	  font-size: 60px;
+	  letter-spacing: 0.05em;
+	  display: inline-block;
+	  color: #3F3F3F;
+	}
+
+	.uxc1-center h2 {
+	  font-family: "Nunito Sans", sans-serif;
+	  font-weight: 400;
+	  line-height: 160px;
+	  font-size: 35px;
+	  color: #3F3F3F;
+    position: absolute;
+    left: 95px;
+	}
+
+	.uxc1-line {
+	  background-color: #008DD3;
+    height: 5px;
+    width: 188px;
+    position: absolute;
+    left: 98px;
+	}
+
+	.uxc1-center h3 {
+	  color: #ABABAB;
+	  font-family: "Rubik", sans-serif;
+	  font-size: 20px;
+	  font-weight: 500;
+    position: absolute;
+    top: 7rem;
+    left: 98px;
+    width: 15rem;
+  }
+
+  .uxc1-text {
+	  color: #707070;
+	  opacity: 0.85;
+	  margin: auto;
+    margin-top: 1.5rem;
+    position: absolute;
+	  left: -3rem;
+	  width: 335px;
+	  font: 400 14px/30px "Rubik", sans-serif;
+  }
+
+  .regbutton {
+    z-index: 0;
+    top: 350px;
+    position: absolute;
+    left: 4rem;
+    margin-top: 5rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #uxc-1 {
+    height: 570px;
+    margin-top: 7rem;
   }
 
   .uxc1-img3 {
-    width: 193px;
+    width: 240px;
     height: 198px;
-    background-size: 261px;
-    right: 0px;
-    top: 205px;
+    position: absolute;
+    right: -50px;
+    top: 250px;
+    background-size: cover;
   }
 
   .uxc1-img2 {
     width: 188px;
     height: 135px;
-    background-size: 188px;
+    position: absolute;
+    top: 27rem;
     right: 20px;
-    bottom: 30px;
+    background-size: cover;
+  }
+
+  .uxc1-center {
+    width: 20px;
+    height: 70px;
+    position: absolute;
+    top: -0.75rem;
+    left: 2.5rem;
+  }
+
+  .uxc1-center h1 {
+    font-size: 50px;
+    line-height: 56px;
+  }
+
+  .uxc1-center h2 {
+    font-size: 36px;
+    line-height: 43px;
+    position: absolute;
+    top: 0;
+    left: 75px;
+  }
+
+  .uxc1-line {
+    height: 5px;
+    width: 122px;
+    position: absolute;
+    bottom: 25px;
+    left: 78px;
+  }
+
+  .uxc1-center h3 {
+    font-size: 12px;
+    position: absolute;
+    top: 50px;
+    left: 78px;
   }
 
   .uxc1-text {
-    width: 230px;
+    width: 300px;
     font: 400 12px/19px "Rubik", sans-serif;
-    margin: 0px;
-    margin-top: 80px;
-    padding-left: 40px;
+    position: absolute;
+    top: 8.5rem;
+    left: -4.25rem;
+  }
+
+  .regbutton {
+    z-index: 0;
+    width: 125px;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    top: 250px;
+    position: absolute;
+    left: 2.5rem;
   }
 
   .uxchill-footer h4 {
@@ -60,32 +447,18 @@
     background-size: 50px;
   }
 
-  .uxc1-center {
-    width: 197px;
-    height: 70px;
-    margin: 0px;
-    margin-top: 140px;
-    margin-left: 50px;
-  }
-
-  .uxc1-center h1 {
-    font-size: 50px;
-    line-height: 56px;
-  }
-
-  .uxc1-center h2 {
-    font-size: 36px;
-    line-height: 43px;
-  }
-
-  .uxc1-line {
-    height: 5px;
-    width: 122px;
-    bottom: 25px;
-  }
-
-  .uxc1-center h3 {
-    font-size: 14px;
+  #uxc-2 h1 {
+    width: 167px;
+    height: 57px;
+    font-family: '"Rubik"', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    color: #f3f3f3;
+    margin: 0px !important;
   }
 
   .h1 {
@@ -106,6 +479,77 @@
     margin-top: 0px;
   }
 
+  .uxc2-panel, .uxc2-panel:first-child, .uxc2-panel:nth-child(4) {
+    border-radius: 7px;
+    background-color: #ffffff;
+    margin: 0 19px 32px 19px;
+    padding: 32px 24px 32px 24px;
+    width: 234px;
+  }
+
+  .panel-img {
+    width: 234px;
+    height: 176px;
+    background-size: 234px;
+  }
+
+  .uxc2-panel h2 {
+    font-family: '"Rubik"', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    color: #008dd3;
+  }
+
+  .uxc2-panel h3 {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    color: #3f3f3f;
+    text-align: left;
+  }
+
+  .uxc2-panel p {
+    font-family: "Rubik", sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.64;
+    letter-spacing: normal;
+    color: #8d959d;
+    text-align: justify;
+  }
+
+  .uxc2-panel a {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #f3f3f3;
+    text-decoration: none;
+  }
+
+  .panel-button {
+    width: 80px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(169, 169, 169, 0.3);
+    background-color: #008dd3;
+    padding: 16px 32px 16px 32px;
+    bottom: 35px;
+    left: 25px;
+  }
+
   #uxc-3 {
     background: #EAEDF1;
     width: 100%;
@@ -115,7 +559,7 @@
   #uxc-3 h1 {
     width: 125px;
     height: 57px;
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 24px;
     font-weight: 500;
     font-style: normal;
@@ -139,7 +583,7 @@
     font-weight: 500px;
     font-size: 32px;
     margin-bottom: 16px;
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
     color: #008DD3;
     text-align: left;
   }
@@ -147,14 +591,14 @@
   .uxc3-box h3 {
     margin: 0px;
     font-size: 24px;
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
     text-align: left;
     color: #3f3f3f;
   }
 
   .uxc3-box h4 {
     margin: 0px;
-    font: 400 18px 'Rubik', sans-serif;
+    font: 400 18px "Rubik", sans-serif;
     color: #ababab;
     text-align: left;
     margin-top: 16px;
@@ -162,7 +606,7 @@
 
   .uxc3-box p {
     margin: 0px;
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 14px;
     text-align: justify;
     color: #5f5f5f;
@@ -170,7 +614,7 @@
   }
 
   .uxc3-box a {
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -247,7 +691,7 @@
     margin: auto;
     margin-top: 30px;
   }
-
+  
   #modal-window {
     top: 30px;
     left: 30px;
@@ -308,78 +752,61 @@
   }
 }
 
-@media screen and (max-width: 1085px) {
-  #navbar {
-    height: 95px;
-  }
-
-  .navlinks {
-    display: none;
-  }
-
-  .headlogo {
-    display: none;
-    position: fixed;
-    background-size: 160px;
-    width: 160px;
-    height: 38px;
-    top: 25px;
-    left: 20px;
+@media screen and (max-width: 375px) {
+  .uxc1-text {
+    width: 280px;
+    font: 400 12px/19px "Rubik", sans-serif;
+    position: absolute;
+    top: 13.5rem;
+    padding-left: 40px;
   }
 
   .regbutton {
     z-index: 0;
-    top: 350px;
+    width: 125px;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    top: 340px;
     position: absolute;
-    right: auto;
-    left: 40px;
+    left: 2.5rem;
   }
+}
 
-  .mobilenav {
-    width: 100vw;
-	  position: fixed;
-	  top: 60px;
-	  left: 0;
-	  z-index: 99;
-	  height: 15vw;
-	  background: transparent;
-    display: block;
-  }
-
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .mobilenav #mobilenavlinks {
-    display: none;
-  }
-
-  /* Style navigation menu links */
-  .mobilenav a {
-    display: block;
-    padding: 16px 16px;
-  }
-
-  #mobilenavlinks a {
-    color: white;
-    padding: 20px 30px;
-    text-decoration: none;
-    display: block;
-    background: rgba(169,169,169,0.8);
-    font: 400 16px/19px "Rubik", sans-serif;
-    transition: 0.3s all ease-in-out;
-  }
-
-  /* Add a grey background color on mouse-over */
-  #mobilenavlinks a:hover {
-    background-color: #008dd3;
-  }
-
-  .fa-bars {
-    display: block;
-    font-size: 24px;
+@media screen and (max-width: 320px) {
+  .uxc1-text {
+    width: 230px;
+    font: 400 12px/19px "Rubik", sans-serif;
     position: absolute;
-    top: -25px;
-	  right: 20px;
-    color: #ABABAB;
-    cursor: pointer;
+    top: 13rem;
+    padding-left: 40px;
+  }
+
+  .regbutton {
+    z-index: 0;
+    width: 125px;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    top: 365px;
+    position: absolute;
+    left: 2.5rem;
+  }
+
+  .uxc4-img2 {
+    top: -80px;
+  }
+
+  .uxc4-img1 {
+    right: -30px;
+  }
+
+  .uxc4-img3 {
+    left: -5px;
+  }
+
+  .uxc4-head {
+    padding-top: 150px;
   }
 }
 
