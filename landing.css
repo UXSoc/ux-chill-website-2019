@@ -5,7 +5,7 @@
 }
 
 .uxc1-img1 {
-  background-image: url("./../assets/pic1.png");
+  background-image: url("pic1.png");
   width: 565px;
   height: 714px;
   position: absolute;
@@ -14,7 +14,7 @@
 }
 
 .uxc1-img2 {
-  background-image: url("./../assets/Asset18.png");
+  background-image: url("Asset18.png");
   width: 398px;
   height: 286px;
   position: absolute;
@@ -23,7 +23,7 @@
 }
 
 .uxc1-img3 {
-  background-image: url("./../assets/Asset11.png");
+  background-image: url("Asset11.png");
   width: 390px;
   height: 427px;
   position: absolute;
@@ -123,7 +123,7 @@ margin-bottom: -2px;
 
 .sqlogo {
   display: inline-block;
-  background: url("./../assets/biglogo.png");
+  background: url("biglogo.png");
   background-size: 72px;
   display: inline-block;
   margin-left: 10px;
@@ -143,7 +143,7 @@ margin-bottom: -2px;
 	}
 
   .uxc1-img1 {
-	  background-image: url("./../assets/pic1.png");
+	  background-image: url("pic1.png");
 	  width: 240px;
 	  height: 480px;
 	  position: absolute;
@@ -153,7 +153,7 @@ margin-bottom: -2px;
 	}
 
 	.uxc1-img2 {
-	  background-image: url("./../assets/Asset18.png");
+	  background-image: url("Asset18.png");
 	  width: 320px;
 	  height: 200px;
     position: absolute;
@@ -163,7 +163,7 @@ margin-bottom: -2px;
 	}
 
 	.uxc1-img3 {
-	  background-image: url("./../assets/Asset11.png");
+	  background-image: url("Asset11.png");
 	  width: 400px;
 	  height: 350px;
 	  position: absolute;
@@ -254,7 +254,7 @@ margin-bottom: -2px;
 	}
 
   .uxc1-img1 {
-	  background-image: url("./../assets/pic1.png");
+	  background-image: url("pic1.png");
 	  width: 140px;
 	  height: 280px;
 	  position: absolute;
@@ -263,7 +263,7 @@ margin-bottom: -2px;
 	}
 
 	.uxc1-img2 {
-	  background-image: url("./../assets/Asset18.png");
+	  background-image: url("Asset18.png");
 	  width: 200px;
 	  height: 130px;
     position: absolute;
@@ -273,7 +273,7 @@ margin-bottom: -2px;
 	}
 
 	.uxc1-img3 {
-	  background-image: url("./../assets/Asset11.png");
+	  background-image: url("Asset11.png");
 	  width: 300px;
 	  height: 250px;
 	  position: absolute;
@@ -522,7 +522,7 @@ margin-bottom: -2px;
   }
 
   .uxchill-footer {
-    right: auto; left: 30px; bottom: 25px; 
+    right: auto; left: 30px; bottom: 25px;
   }
 
   .sqlogo {
