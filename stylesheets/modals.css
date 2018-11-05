@@ -83,6 +83,7 @@
   color: #3F3F3F;
   text-align: justify;
   margin: 16px 0px;
+  text-transform: uppercase;
 }
 
 .sp-right p {
@@ -106,8 +107,6 @@
   cursor: pointer;
   text-decoration: none;
   margin-top: 36px;
-  /* position: absolute; */
-  /* bottom: 20px; */
 }
 
 #talkmodal {
@@ -116,10 +115,6 @@
   width: 650px;
   height: 575px;
   background: white;
-  /* vertical-align: middle;
-  position: relative;
-  text-align: center;
-  padding: 70px 50px; */
 }
 
 .talkmodal {
@@ -148,19 +143,10 @@
 .talkmodal p {
   font: 400 16px/38px "Rubik", sans-serif;
   color: #707070;
-  text-align: left;
-  width: 350px;
+  text-align: justify;
+  max-width: 500px;
   margin: 0px;
   grid-row: 3/3;
-}
-
-.talkmodal p b {
-  font: inherit;
-  display: inline-block;
-  width: 80px;
-  text-align: justify;
-  margin: auto;
-  margin-bottom: 8px;
 }
 
 .talkregbutton {
@@ -190,4 +176,55 @@
 
 .uxc4-button:hover {
   background: #f3f3f3;
+}
+
+@media screen and (max-width: 700px) {
+  #talkmodal {
+    margin: auto;
+    width: 450px !important;
+    height: 560px !important;
+  }
+
+
+    .talkmodal h1 {
+      margin-left: 30px !important;
+      margin-right: 30px !important;
+    }
+
+    .talkmodal p {
+      font: 400 18px "Rubik", sans-serif;
+      line-height: 25px;
+      margin-left: 30px !important;
+      margin-right: 30px !important;
+    }
+
+    .talkregbutton {
+      margin-top: 16px !important;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+  #modal-window {
+    top: 60%;
+    left: 50%;
+  }
+
+  #talkmodal {
+    width: 300px !important;
+    height: 500px !important
+  }
+
+  .talkmodal h1 {
+    font: 500 24px "Rubik", sans-serif;
+    margin-left: 16px !important;
+    margin-right: 16px !important;
+  }
+
+  .talkmodal p {
+    font: 400 14px "Rubik", sans-serif;
+    line-height: 18px;
+    margin-left: 16px !important;
+    margin-right: 16px !important;
+  }
 }
