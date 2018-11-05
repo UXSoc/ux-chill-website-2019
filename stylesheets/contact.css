@@ -1,3 +1,74 @@
+
+	#uxc-4 {
+	  position: relative;
+	  background: #008DD3;
+	  height: 750px;
+	}
+
+	.uxc4-head {
+	  padding-top: 150px;
+		margin: auto;
+	  font: 500 36px/57px "Rubik", sans-serif;
+		color: white;
+		width: 60%;
+	  padding-right: 20px;
+	}
+
+	.uxc4-button {
+	  margin-top: 80px;
+	  background: white;
+	  width: 168px;
+	  height: 16px;
+	  font: 500 16px/16px "Rubik", sans-serif;
+	  color: #008DD3;
+	  text-align: center;
+	  padding: 16px 0px;
+	  border-radius: 7px;
+	  box-shadow: 0px 4px 8px #007CC2;
+	  margin-top: 60px;
+	}
+
+	.uxc4-button-cont {
+	  margin: auto;
+	  width: 45%;
+	  padding-right: 180px;
+	  text-align: left;
+	}
+
+	.uxc4-img2 {
+	  width: 199px;
+	  height: 303px;
+		background-image: url("./../assets/Asset15.png");
+		background-repeat: no-repeat;
+  	background-size: 70%;
+	  position: absolute;
+		top: -70px;
+		right: 1px;
+	}
+
+	.uxc4-img1 {
+	  width: 798px;
+	  height: 579px;
+		background-image: url("./../assets/Asset13.png");
+		background-repeat: no-repeat;
+  	background-size: 90%;
+	  position: absolute;
+	  bottom: -10px;
+	  right: 0px;
+	}
+
+	.uxc4-img3 {
+	  width: 216px;
+	  height: 348px;
+		background-image: url("./../assets/Asset12.png");
+		background-repeat: no-repeat;
+  	background-size: 85%;
+	  position: absolute;
+	  top: 350px;
+	  left: 30px;
+	}
+
+
 @media screen and (max-width: 1024px) {
   #uxc-4 {
     height: 590px;
