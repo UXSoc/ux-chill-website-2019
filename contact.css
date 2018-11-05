@@ -38,7 +38,7 @@
 	.uxc4-img2 {
 	  width: 199px;
 	  height: 303px;
-		background-image: url("Asset15.png");
+		background-image: url("/uxnchill/Asset15.png");
 		background-repeat: no-repeat;
   	background-size: 70%;
 	  position: absolute;
@@ -49,7 +49,7 @@
 	.uxc4-img1 {
 	  width: 798px;
 	  height: 579px;
-		background-image: url("Asset13.png");
+		background-image: url("/uxnchill/Asset13.png");
 		background-repeat: no-repeat;
   	background-size: 90%;
 	  position: absolute;
@@ -60,7 +60,7 @@
 	.uxc4-img3 {
 	  width: 216px;
 	  height: 348px;
-		background-image: url("Asset12.png");
+		background-image: url("/uxnchill/Asset12.png");
 		background-repeat: no-repeat;
   	background-size: 85%;
 	  position: absolute;
