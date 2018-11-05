@@ -60,6 +60,8 @@
 .sp-img img {
   width: 350px;
   height: 420px;
+  object-fit: contain;
+  object-position: center;
 }
 
 .sp-right {
@@ -164,13 +166,17 @@
   margin-top: 32px;
 }
 
-.regbutton:hover, .panel-button:hover, .talkregbutton:hover, .box-button:hover {
+.regbutton:hover,.panel-button:hover, .box-button:hover {
   background: #007dbb;
   margin-top: -2px;
   margin-bottom: 2px;
 }
 
-.regbutton, .panel-button, .talkregbutton, .box-button, .uxc4-button {
+.talkregbutton:hover {
+  background: #007dbb;
+}
+
+.regbutton, .panel-button, .box-button, .uxc4-button {
   transition: 0.1s all ease-in-out;
 }
 

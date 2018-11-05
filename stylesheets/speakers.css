@@ -41,6 +41,9 @@
   width: 270px;
   height: 200px;
   margin-bottom: 16px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .uxc2-panel h2 {
@@ -69,6 +72,7 @@
   max-height: 240px;
   margin-bottom: 16px;
   line-height: 180% !important;
+  text-align: justify;
 }
 
 .panel-button {
