@@ -178,7 +178,42 @@
   background: #f3f3f3;
 }
 
+@media screen and (max-width: 1024px) {
+  #spmodal {
+    margin: auto;
+    width: 650px;
+    height: 480px;
+  }
+
+  .sp-img {
+    width: 200px;
+    height: 320px;
+    overflow: hidden;
+  }
+}
+
 @media screen and (max-width: 700px) {
+  #spmodal {
+    margin: auto;
+    width: 400px;
+    height: 650px;
+  }
+
+  .sp-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    margin: auto;
+  }
+
+
+  .sp-img {
+    margin-left: 24px;
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+  }
+
   #talkmodal {
     margin: auto;
     width: 450px !important;
@@ -205,10 +240,28 @@
 }
 
 @media screen and (max-width: 480px) {
-  #modal-window {
-    top: 60%;
-    left: 50%;
+  #spmodal {
+    margin: auto;
+    width: 300px;
+    height: 100%;
   }
+
+  .sp-img {
+    width: 240px;
+    height: 120px;
+    overflow: hidden;
+  }
+
+  .sp-right p {
+    margin: 0px;
+    font: 400 12px/25px "Rubik", sans-serif;
+    color: #8D959D;
+    text-align: left;
+    max-width: 240px;
+    max-height: 240px;
+    overflow: hidden;
+  }
+
 
   #talkmodal {
     width: 300px !important;

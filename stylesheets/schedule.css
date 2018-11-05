@@ -111,3 +111,23 @@
 			margin: 0 0 24px 0;
 		}
 	}
+
+	@media screen and (max-width: 400px) {
+		.uxc3-box {
+			width: 180px;
+		  height: 180px;
+			margin: 0 0 24px 0;
+		}
+
+		.uxc3-box h2 {
+		  font-size: 28px;
+		}
+
+		.uxc3-box h3 {
+		  font-size: 16px;
+		}
+
+		.uxc3-box h4 {
+		  font-size: 12px;
+		}
+	}
