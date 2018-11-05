@@ -192,17 +192,42 @@
   }
 
   .sp-img {
-    width: 200px;
-    height: 320px;
-    overflow: hidden;
+    margin: 0px;
+  }
+
+  .sp-right {
+    margin: 0px;
+  }
+
+  .sp-img img{
+    margin-left: 15px;
+    margin-right: 0px !important;
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .sp-right p {
+    margin: 0px;
+    font: 400 14px; "Rubik", sans-serif;
+    color: #8D959D;
+    text-align: left;
+    max-height: 350px;
+    width: 280px
   }
 }
 
 @media screen and (max-width: 700px) {
+  .close {
+    margin: 8px;
+    cursor: pointer;
+  }
+
   #spmodal {
     margin: auto;
     width: 400px;
-    height: 650px;
+    height: 99%;
   }
 
   .sp-grid {
@@ -212,13 +237,30 @@
     margin: auto;
   }
 
-
   .sp-img {
     margin-left: 24px;
     width: 100%;
     height: 240px;
-    overflow: hidden;
+    object-fit: contain;
+    object-position: center;
   }
+
+  .sp-right {
+    margin-left: 40px;
+  }
+
+  .sp-right h1 {
+    margin: 0px;
+    margin-left: px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .sp-right h2 {
+    margin: 0px;
+    margin-bottom: 8px;
+  }
+
 
   #talkmodal {
     margin: auto;
@@ -252,20 +294,24 @@
     height: 100%;
   }
 
-  .sp-img {
+  .sp-img  img {
     width: 240px;
-    height: 120px;
-    overflow: hidden;
+    height: 240px;
+    object-fit: contain;
+    object-position: center;
+    margin-left: 0px;
   }
 
+  .sp-right {
+    margin-left: 25px;
+  }
   .sp-right p {
     margin: 0px;
-    font: 400 12px/25px "Rubik", sans-serif;
+    font: 400 10px/25px "Rubik", sans-serif;
     color: #8D959D;
     text-align: left;
     max-width: 240px;
     max-height: 240px;
-    overflow: hidden;
   }
 
 

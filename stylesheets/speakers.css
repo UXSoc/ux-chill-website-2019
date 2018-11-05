@@ -1,7 +1,8 @@
 #uxc-2 {
   background: #008DD3;
   text-align: center;
-  padding: 60px 0px 120px 0px;
+  padding-top: 60px;
+  padding-bottom: 120px;
   width: 100%;
 }
 
@@ -103,6 +104,7 @@
   .panel-button {
     margin-top: 16px;
   }
+
 }
 
 @media screen and (max-width: 720px) {
@@ -117,6 +119,8 @@
 
   .uxc2-panel {
     margin-bottom: 32px;
+    margin-left: 0px;
+    margin-right: 0px;
     padding: 24px;
     border-radius: 8px;
     text-align: left;
