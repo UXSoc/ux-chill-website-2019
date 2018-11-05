@@ -1,6 +1,290 @@
 
 
 @media screen and (max-width: 425px) {
+<<<<<<< HEAD
+  #uxc-1 {
+    height: 570px;
+    margin-top: 7rem;
+  }
+
+  .uxc1-img3 {
+    width: 240px;
+    height: 198px;
+    position: absolute;
+    right: -50px;
+    top: 250px;
+    background-size: cover;
+  }
+
+  .uxc1-img2 {
+    width: 188px;
+    height: 135px;
+    position: absolute;
+    top: 27rem;
+    right: 20px;
+    background-size: cover;
+  }
+
+  .uxc1-center {
+    width: 20px;
+    height: 70px;
+    position: absolute;
+    top: -0.75rem;
+    left: 2.5rem;
+  }
+
+  .uxc1-center h1 {
+    font-size: 50px;
+    line-height: 56px;
+  }
+
+  .uxc1-center h2 {
+    font-size: 36px;
+    line-height: 43px;
+    position: absolute;
+    top: 0;
+    left: 75px;
+  }
+
+  .uxc1-line {
+    height: 5px;
+    width: 122px;
+    position: absolute;
+    bottom: 25px;
+    left: 78px;
+  }
+
+  .uxc1-center h3 {
+    font-size: 12px;
+    position: absolute;
+    top: 50px;
+    left: 78px;
+  }
+
+  .uxc1-text {
+    width: 300px;
+    font: 400 12px/19px "Rubik", sans-serif;
+    position: absolute;
+    top: 8.5rem;
+    left: -4.25rem;
+  }
+
+  .regbutton {
+    z-index: 0;
+    width: 125px;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    top: 250px;
+    position: absolute;
+    left: 2.5rem;
+  }
+
+  .uxchill-footer h4 {
+    display: none;
+  }
+
+  .uxchill-footer {
+    right: 190px;
+    display: none;
+  }
+
+  .sqlogo {
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+  }
+
+  #uxc-2 h1 {
+    width: 167px;
+    height: 57px;
+    font-family: '"Rubik"', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    color: #f3f3f3;
+    margin: 0px !important;
+  }
+
+  .h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+
+  .uxc3-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .uxc3-container {
+    margin-top: 0px;
+  }
+
+  .panel-img {
+    width: 234px;
+    height: 176px;
+    background-size: 234px;
+  }
+
+  .uxc2-panel h2 {
+    font-family: '"Rubik"', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    color: #008dd3;
+  }
+
+  .uxc2-panel h3 {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    color: #3f3f3f;
+    text-align: left;
+  }
+
+  .uxc2-panel p {
+    font-family: "Rubik", sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.64;
+    letter-spacing: normal;
+    color: #8d959d;
+    text-align: justify;
+  }
+
+  .uxc2-panel a {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #f3f3f3;
+    text-decoration: none;
+  }
+
+  .panel-button {
+    width: 80px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(169, 169, 169, 0.3);
+    background-color: #008dd3;
+    padding: 16px 32px 16px 32px;
+    bottom: 35px;
+    left: 25px;
+  }
+
+  #uxc-3 {
+    background: #EAEDF1;
+    width: 100%;
+    text-align: center;
+  }
+
+  #uxc-3 h1 {
+    width: 125px;
+    height: 57px;
+    font-family: "Rubik", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    color: #3F3F3F;
+    margin: 0px !important;
+  }
+
+  .uxc3-box {
+    padding: 40px 24px 40px 24px;
+    margin: 0 20px 32px 20px;
+    background: white;
+    border-radius: 10px;
+    width: 234px;
+  }
+
+  .uxc3-box h2 {
+    margin: 0px;
+    font-weight: 500px;
+    font-size: 32px;
+    margin-bottom: 16px;
+    font-family: "Rubik", sans-serif;
+    color: #008DD3;
+    text-align: left;
+  }
+
+  .uxc3-box h3 {
+    margin: 0px;
+    font-size: 24px;
+    font-family: "Rubik", sans-serif;
+    text-align: left;
+    color: #3f3f3f;
+  }
+
+  .uxc3-box h4 {
+    margin: 0px;
+    font: 400 18px "Rubik", sans-serif;
+    color: #ababab;
+    text-align: left;
+    margin-top: 16px;
+  }
+
+  .uxc3-box p {
+    margin: 0px;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    color: #5f5f5f;
+    margin-top: 16px;
+  }
+
+  .uxc3-box a {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #f3f3f3;
+    text-decoration: none;
+  }
+
+  .uxc3-box:nth-child(1) {
+	  margin-left: auto;
+	}
+
+  .box-button {
+    width: 120px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(169, 169, 169, 0.3);
+    background-color: #008dd3;
+    padding: 16px 24px 16px 24px;
+    left: 24px;
+    bottom: 24px;
+  }
+
+  .uxc3-img1 {
+    width: 200px;
+    height: 250px;
+    background-size: 380px;
+    top: -130px;
+=======
   #uxc-4 {
     height: 590px;
   }
@@ -45,6 +329,7 @@
   .uxc4-button {
     margin: auto;
     margin-top: 30px;
+>>>>>>> f35f40670cc03f0fa335da42ef685f46b76eaa27
   }
 
   #modal-window {
