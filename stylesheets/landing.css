@@ -9,7 +9,7 @@
   width: 565px;
   height: 714px;
   position: absolute;
-  left: 50px;
+  left: -50px;
   top: 0px;
 }
 
@@ -123,7 +123,13 @@
   width: 72px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1180px) {
+  .uxc1-img1 {
+	  left: -90px;
+	}
+}
+
+@media screen and (max-width: 1100px) {
   #uxc-1 {
 	  height: 650px;
 	}
@@ -133,8 +139,8 @@
 	  width: 240px;
 	  height: 480px;
 	  position: absolute;
-	  left: 30px;
-    top: 0px;
+	  left: 15px;
+    top: 20px;
     background-size: cover;
 	}
 
@@ -219,6 +225,21 @@
   }
 }
 
+@media screen and (max-width: 960px) {
+  .uxc1-img1 {
+	  left: -75px;
+	}
+
+  .uxc1-img2 {
+	    right: -60px;
+	}
+
+  .uxc1-img3 {
+	  right: -180px;
+	}
+
+}
+
 @media screen and (max-width: 768px) {
   #uxc-1 {
 	  height: 650px;
@@ -229,8 +250,7 @@
 	  width: 140px;
 	  height: 280px;
 	  position: absolute;
-	  left: 20px;
-    top: 0px;
+	  left: 15px;
     background-size: cover;
 	}
 
@@ -261,7 +281,7 @@
 	  margin-top: 100px;
 	  position: relative;
     top: -3rem;
-    left: 5rem;
+    left: 8rem;
   }
 
 	.uxc1-center h1 {
@@ -310,7 +330,7 @@
 	  margin: auto;
 	  margin-top: -3.5rem;
 	  padding-left: 110px;
-	  width: 500px;
+	  width: 400px;
 	  font: 400 16px/34px "Rubik", sans-serif;
   }
 
@@ -318,8 +338,8 @@
     z-index: 0;
     top: 350px;
     position: absolute;
-    left: 11.75rem;
-    margin-top: -0.5rem;
+    left: 15rem;
+    margin-top: 30px;
   }
 }
 
@@ -340,7 +360,7 @@
 	  margin-top: 100px;
 	  position: relative;
     top: 2rem;
-    left: 3.5rem;
+    left: 1.5rem;
   }
 
 	.uxc1-center h1 {
@@ -389,7 +409,7 @@
 	  margin: auto;
     margin-top: 1.5rem;
     position: absolute;
-	  left: -3rem;
+	  left: -5rem;
 	  width: 335px;
 	  font: 400 14px/30px "Rubik", sans-serif;
   }
@@ -400,6 +420,10 @@
     position: absolute;
     left: 4rem;
     margin-top: 5rem;
+  }
+
+  .uxc1-img3 {
+    right: -120px;
   }
 }
 
