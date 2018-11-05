@@ -166,10 +166,19 @@
   margin-top: 32px;
 }
 
-.regbutton:hover,.panel-button:hover, .box-button:hover {
+
+.panel-button { position: relative; top: 0px; }
+.panel-button:hover {
   background: #007dbb;
-  margin-top: -2px;
-  margin-bottom: 2px;
+  position: relative; top: 2px;
+margin-bottom: -2px;
+
+}
+
+.box-button:hover {
+  background: #007dbb;
+  position: relative; top: 2px;
+
 }
 
 .talkregbutton:hover {
@@ -182,6 +191,7 @@
 
 .uxc4-button:hover {
   background: #f3f3f3;
+  margin-top: 62px;
 }
 
 @media screen and (max-width: 1024px) {

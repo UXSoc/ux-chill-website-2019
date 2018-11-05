@@ -63,6 +63,7 @@
     margin-top: 16px;
     margin-bottom: 16px;
 		cursor: pointer;
+		position: relative; top: 0px;
 	}
 
 	.uxc3-img1 {

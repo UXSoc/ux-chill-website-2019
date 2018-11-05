@@ -95,6 +95,8 @@
     margin-top: 2.5rem;
   }
 
+  .regbutton:hover { margin-top: 2.6rem; }
+
   .mobilenav {
     width: 100vw;
 	  position: fixed;

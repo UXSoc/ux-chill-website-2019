@@ -116,6 +116,7 @@
     margin: auto;
     margin-top: 20px;
   }
+	.uxc4-button:hover { margin-top: 22px!important; }
 }
 
 @media screen and (max-width: 768px) {
@@ -173,4 +174,5 @@
     margin: auto;
     margin-top: 30px;
   }
+	.uxc4-button:hover { margin-top: 32px!important; }
 }
