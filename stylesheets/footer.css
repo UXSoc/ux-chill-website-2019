@@ -3,7 +3,7 @@
 	  padding: 90px 30px;
 	}
  	.uxc5-logo {
-	  background-image: url("./assets/Logo.png");
+	  background-image: url("./../assets/Logo.png");
 	  width: 278px;
 	  height: 66px;
 	  display: inline-block;

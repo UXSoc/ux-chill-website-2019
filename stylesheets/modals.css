@@ -25,7 +25,7 @@
 
 #modal-window {
   position: fixed;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   height: 580px;
@@ -305,9 +305,14 @@
   .sp-right {
     margin-left: 25px;
   }
+
+  .sp-right h1 {
+    font-size: 16px;
+  }
+
   .sp-right p {
     margin: 0px;
-    font: 400 10px/25px "Rubik", sans-serif;
+    font: 400 12px "Rubik", sans-serif;
     color: #8D959D;
     text-align: left;
     max-width: 240px;
