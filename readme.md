@@ -7,3 +7,4 @@ ux and chill 2019
 - [ ] ux and chill facebook and twitter card image
 - [ ] mobile
 - [ ] speaker images
+- [ ] register now buttons should redirect to eventbrite signup
