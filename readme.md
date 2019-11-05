@@ -1,7 +1,9 @@
 ux and chill 2019
 
-### needs
+### todos
 
-- [] svg logo
-- [] updated description
-- [] ux and chill facebook and twitter card image
+- [x] svg logo
+- [x] updated description
+- [ ] ux and chill facebook and twitter card image
+- [ ] mobile
+- [ ] speaker images

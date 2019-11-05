@@ -99,6 +99,8 @@ h1 span.gradient {
 section.speakers {
   padding: 90px 200px 168px;
   background-color: #028ed3;
+  display: flex;
+  justify-content: center;
 }
 
 section.speakers h2 {
@@ -120,6 +122,7 @@ section.speakers h2 {
   padding: 37px 35px 27px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
+
   display: flex;
   flex-direction: column;
 }
@@ -251,4 +254,157 @@ footer .right .logos {
 
 footer .right svg {
   margin-right: 32px;
+}
+
+/* modal styles */
+/**************************\
+  Basic Modal Styles
+\**************************/
+
+.modal__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__container {
+  background-color: white;
+  max-height: 100vh;
+  border-radius: 4px;
+  overflow-y: auto;
+  padding-top: 26px;
+  padding-bottom: 80px;
+}
+
+.modal__container .close {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 32px;
+  padding-right: 30px;
+  cursor: pointer;
+  color: #828282;
+}
+
+.modal__container .close span {
+  margin-right: 8px;
+}
+
+.modal__container .close button {
+  background: none;
+  border: 0;
+}
+
+.modal__container .main {
+  padding-left: 67px;
+  padding-right: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.modal__container .person {
+  margin-right: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal__container .person .speaker-category {
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  color: #4ecca8;
+}
+.modal__container .person .speaker-name {
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  margin-bottom: 16px;
+  color: #333333;
+}
+
+.modal__container .details {
+  max-width: 400px;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.05em;
+  color: #333333;
+}
+
+.modal__container .details p {
+  margin-bottom: 32px;
+}
+/**************************\
+  Demo Animation Style
+\**************************/
+@keyframes mmfadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes mmfadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes mmslideIn {
+  from {
+    transform: translateY(15%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes mmslideOut {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10%);
+  }
+}
+
+.micromodal-slide {
+  display: none;
+}
+
+.micromodal-slide.is-open {
+  display: block;
+}
+
+.micromodal-slide[aria-hidden="false"] .modal__overlay {
+  animation: mmfadeIn 0.3s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.micromodal-slide[aria-hidden="false"] .modal__container {
+  animation: mmslideIn 0.3s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.micromodal-slide[aria-hidden="true"] .modal__overlay {
+  animation: mmfadeOut 0.3s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.micromodal-slide[aria-hidden="true"] .modal__container {
+  animation: mmslideOut 0.3s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.micromodal-slide .modal__container,
+.micromodal-slide .modal__overlay {
+  will-change: transform;
 }
