@@ -1,0 +1,44 @@
+html,
+body {
+  font-size: 100%;
+  font-family: "Nunito Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+/* font-family: 'Rubik', sans-serif; */
+
+.hero__nav {
+  padding: 20px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__cta {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+  padding: 16px 24px;
+  background-color: #028ed3;
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 4px;
+  cursor: pointer;
+}
+
+h1 span.gradient {
+  font-family: "Rubik", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  background-image: -webkit-linear-gradient(360deg, #4ecca8, #028ed3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
