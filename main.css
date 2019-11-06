@@ -271,6 +271,7 @@ footer .right svg {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 4;
 }
 
 .modal__container {
@@ -280,6 +281,7 @@ footer .right svg {
   overflow-y: auto;
   padding-top: 26px;
   padding-bottom: 80px;
+  z-index: 5;
 }
 
 .modal__container .close {
