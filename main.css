@@ -410,3 +410,41 @@ footer .right svg {
 .micromodal-slide .modal__overlay {
   will-change: transform;
 }
+
+
+.hero-img-left { width: 26vw; bottom: -10%; }
+.hero-img-right { width: 22vw; }
+
+.img-left { width: 26vw; }
+.img-right { width: 22vw; }
+
+@media screen and (max-width: 1050px) {
+
+.speaker-collection { grid-template-columns: repeat(2,300px); }
+
+footer { padding-left: 100px; padding-right: 100px; }
+}
+
+@media screen and (max-width: 850px) {
+
+.hero__nav { padding: 20px 40px; }
+.hero-img-right { bottom: -6%; }
+.hero-img-left { bottom: auto; top: 10%; }
+.hero .main-text { padding-top: 30vh; padding-left: 15vw; padding-right: 5vw;  }
+footer { padding-left: 40px; padding-right: 40px; }
+
+}
+@media screen and (max-width: 750px) {
+.closing .message p { padding-left: 6vw; }
+.closing .message button { margin-left: 6vw; }
+.modal__container .main { display: block; }
+.modal__container .person { margin: auto; }
+.modal__container { max-height: 90vh; }
+}
+
+@media screen and (max-width: 650px) {
+
+.speaker-collection { grid-template-columns: repeat(1,300px); }
+.modal__container { padding-bottom: 40px; }
+.modal__container .main { padding: 0px 30px; }
+}
