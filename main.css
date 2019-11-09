@@ -111,16 +111,21 @@ section.speakers h2 {
   letter-spacing: 0.05em;
   font-family: "Rubik", sans-serif;
   color: #ffffff;
-  margin-bottom: 48px;
+  margin-bottom: 8px;
 }
 
 .speaker-collection {
-  display: grid;
-  grid-template-columns: repeat(3, 333px);
-  gap: 52px 21px;
+  display: flex;
+  width: 1100px;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: wrap;
+  /* grid-template-columns: repeat(3, 333px);
+  grid-gap: 52px 21px; */
 }
 
 .speaker-card {
+  width: 333px;
   background-color: white;
   padding: 37px 35px 27px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
@@ -128,7 +133,10 @@ section.speakers h2 {
 
   display: flex;
   flex-direction: column;
+  margin-top: 40px;
+  margin-left: auto;
 }
+.speaker-width { width: 333px; margin-left: auto; }
 
 .speaker-img {
 }
@@ -434,14 +442,14 @@ footer .right svg {
 }
 
 @media screen and (max-width: 1050px) {
-  .speaker-collection {
-    grid-template-columns: repeat(2, 300px);
-  }
 
   footer {
     padding-left: 100px;
     padding-right: 100px;
   }
+.speaker-collection { width: 680px; }
+.speaker-card, .speaker-width { width: 300px; }
+
 }
 
 @media screen and (max-width: 850px) {
@@ -485,32 +493,21 @@ footer .right svg {
     padding-top: 70px;
   }
   section.speakers h2 {
-    margin-bottom: 30px;
+    margin-bottom: 8px;
   }
 }
 
 @media screen and (max-width: 650px) {
-  .speaker-collection {
-    grid-template-columns: repeat(1, 70vw);
-    gap: 52px auto;
-    margin: auto 15vw;
-  }
-  .modal__container {
-    padding-bottom: 30px;
-    width: 90vw;
-  }
-  .modal__container .main {
-    padding: 0px 30px;
-  }
-  .hero .main-text {
-    padding-top: 20vh;
-  }
-  section.speakers h2 {
-    padding-left: 5vw;
-  }
-  .hero__nav {
-    padding: 20px 20px;
-  }
+
+.speaker-collection { width: 70vw;
+  margin: auto 15vw; }
+  .speaker-card, .speaker-width { width: 70vw; }
+.modal__container { padding-bottom: 30px; width: 90vw; }
+.modal__container .main { padding: 0px 30px; }
+.hero .main-text { padding-top: 20vh; }
+section.speakers h2 { padding-left: 5vw; }
+.hero__nav { padding: 20px 20px; }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -532,14 +529,13 @@ footer .right svg {
     padding-top: 50px;
     padding-bottom: 150px;
   }
-  .speaker-description {
-    margin-bottom: 25px;
-  }
-  .speaker-collection {
-    grid-template-columns: repeat(1, 90vw);
-    gap: 30px 20px;
-    margin: auto 5vw;
-  }
+  
+  .speaker-description { margin-bottom: 25px; }
+  .speaker-collection { width: 90vw;
+  margin: auto 5vw; }
+  .speaker-card { margin-top: 30px; }
+  .speaker-card, .speaker-width { width: 90vw; }
+  
   .hero-img-left {
     width: 150px;
     top: 100px;
