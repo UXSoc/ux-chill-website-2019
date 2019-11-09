@@ -112,6 +112,7 @@ section.speakers h2 {
   font-family: "Rubik", sans-serif;
   color: #ffffff;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .speaker-collection {
@@ -133,10 +134,14 @@ section.speakers h2 {
 
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
   margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 40px;
 }
-.speaker-width { width: 333px; margin-left: auto; }
+.speaker-width { width: 333px;
+   margin-left: auto;
+ margin-right: auto; }
 
 .speaker-img {
 }
@@ -161,7 +166,7 @@ section.speakers h2 {
   line-height: 1.79;
   letter-spacing: 0.05em;
   color: #333333;
-  margin-bottom: 52px;
+  margin-bottom: 32px;
 }
 .speaker-learn {
   font-family: "Nunito Sans", sans-serif;
@@ -219,7 +224,7 @@ section.speakers h2 {
     font-size: 20px;
 width: 30vw;
   }
-.closing_container { display: flex; justify-content: space-around; align-items: center; padding-left: 5vw; padding-right: 15vw; width: 80vw; }
+.closing_container { display: flex; justify-content: space-around; align-items: center; padding-left: 5vw; padding-right: 13vw; width: 82vw; }
 
 .closing_details { display: flex; font-family: Nunito Sans;
 font-style: normal;
@@ -227,8 +232,10 @@ font-weight: normal;
 font-size: 14px;
 line-height: 20px;
 letter-spacing: 0.05em; }
-.closing_details span { display: block; margin-bottom: 20px; }
-.closing_details img { margin-right: 10px; position: relative; top: 2px;  }
+.closing_details { line-height: 15px; }
+.closing_details-text span { display: block; margin-bottom: 20px; line-height: 21px; }
+.closing_details-icons span { display: block; margin-bottom: 14px; line-height: 21px; }
+.closing_details svg { margin-right: 10px; height: 22px; }
 
 .mapouter{position:relative;text-align: left;height:285px;width: 35vw;}.gmap_canvas {overflow:hidden;background:none!important;height:285px;width:35vw;}
 .gmap_canvas iframe { width: 35vw; }
@@ -376,7 +383,6 @@ footer .right svg {
 
 .modal__container .details p {
   margin-bottom: 32px;
-  max-width: 400px;
 }
 /**************************\
   Demo Animation Style
@@ -493,8 +499,8 @@ width: 80vw;
   }
   .hero .main-text {
     padding-top: 20vh;
-    padding-left: 15vw;
-    padding-right: 5vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
   }
   footer {
     padding-left: 40px;
@@ -571,14 +577,19 @@ section.speakers h2 { padding-left: 5vw; }
     right: 0px;
   }
 
+  .hero .main-text { padding-left: 8vw; padding-right: 8vw; }
+
   h1 {
     font-size: 27px;
     line-height: 45px;
+    margin-bottom: 10px;
   }
   h1 span.gradient {
     font-size: 32px;
     line-height: 40px;
   }
+
+  .main-text .event-details { font-size: 20px; margin-bottom: 10px; }
   .hero .main-text {
     padding-top: 150px;
   }
@@ -611,7 +622,7 @@ section.speakers h2 { padding-left: 5vw; }
   .gmap_canvas iframe, .gmap_canvas { width: 90vw; }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 385px) {
   .hero__nav svg {
     width: 150px;
   }
