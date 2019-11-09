@@ -40,6 +40,7 @@ section.hero {
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 4px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 h1 {
@@ -98,7 +99,8 @@ h1 span.gradient {
 
 /* speaker */
 section.speakers {
-  padding-top: 90px; padding-bottom: 168px;
+  padding-top: 90px;
+  padding-bottom: 168px;
   background-color: #028ed3;
   display: flex;
   justify-content: center;
@@ -144,14 +146,14 @@ section.speakers h2 {
   font-weight: bold;
   letter-spacing: 0.05em;
   color: #4ecca8;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   text-transform: uppercase;
 }
 .speaker-name {
   font-weight: bold;
   font-size: 24px;
   letter-spacing: 0.05em;
-  margin-bottom: 16px;
+  margin-bottom: 7px;
   color: #333333;
 }
 .speaker-description {
@@ -231,7 +233,8 @@ footer {
   align-items: flex-end;
   padding-top: 33px;
   padding-bottom: 57px;
-  padding-left: 150px; padding-right: 150px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 footer .left svg {
@@ -248,7 +251,7 @@ footer .left p {
 
 footer .left a {
   text-decoration: none;
-  color: #4ecca8;
+  color: #028ed3;
   font-weight: 600;
 }
 
@@ -353,6 +356,7 @@ footer .right svg {
 
 .modal__container .details p {
   margin-bottom: 32px;
+  max-width: 400px;
 }
 /**************************\
   Demo Animation Style
@@ -422,38 +426,75 @@ footer .right svg {
   will-change: transform;
 }
 
+.hero-img-left {
+  width: 26vw;
+  bottom: -10%;
+}
+.hero-img-right {
+  width: 22vw;
+}
 
-.hero-img-left { width: 26vw; bottom: -10%; }
-.hero-img-right { width: 22vw; }
-
-.img-left { width: 26vw; }
-.img-right { width: 22vw; }
+.img-left {
+  width: 26vw;
+}
+.img-right {
+  width: 22vw;
+}
 
 @media screen and (max-width: 1050px) {
 
+  footer {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 .speaker-collection { width: 680px; }
 .speaker-card, .speaker-width { width: 300px; }
 
-footer { padding-left: 100px; padding-right: 100px; }
 }
 
 @media screen and (max-width: 850px) {
-
-.hero__nav { padding: 20px 40px; }
-.hero-img-right { bottom: -6%; }
-.hero-img-left { bottom: auto; top: 10%; }
-.hero .main-text { padding-top: 20vh; padding-left: 15vw; padding-right: 5vw;  }
-footer { padding-left: 40px; padding-right: 40px; }
-
+  .hero__nav {
+    padding: 20px 40px;
+  }
+  .hero-img-right {
+    bottom: -6%;
+  }
+  .hero-img-left {
+    bottom: auto;
+    top: 10%;
+  }
+  .hero .main-text {
+    padding-top: 20vh;
+    padding-left: 15vw;
+    padding-right: 5vw;
+  }
+  footer {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 @media screen and (max-width: 750px) {
-.closing .message p { padding-left: 6vw; }
-.closing .message button { margin-left: 6vw; }
-.modal__container .main { display: block; }
-.modal__container .person { margin: auto; }
-.modal__container { max-height: 90vh; }
-section.speakers  { padding-top: 70px; }
-section.speakers h2 { margin-bottom: 8px;}
+  .closing .message p {
+    padding-left: 6vw;
+  }
+  .closing .message button {
+    margin-left: 6vw;
+  }
+  .modal__container .main {
+    display: block;
+  }
+  .modal__container .person {
+    margin: auto;
+  }
+  .modal__container {
+    max-height: 90vh;
+  }
+  section.speakers {
+    padding-top: 70px;
+  }
+  section.speakers h2 {
+    margin-bottom: 8px;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -470,35 +511,85 @@ section.speakers h2 { padding-left: 5vw; }
 }
 
 @media screen and (max-width: 500px) {
-  footer { display: block; padding-top: 30px; padding-bottom: 30px; }
-  .right { margin-top: 30px; }
+  footer {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .right {
+    margin-top: 30px;
+  }
 }
 
-
 @media screen and (max-width: 420px) {
-  section.hero { padding-bottom: 100px; }
-  section.speakers { padding-top: 50px; padding-bottom: 150px; }
+  section.hero {
+    padding-bottom: 100px;
+  }
+  section.speakers {
+    padding-top: 50px;
+    padding-bottom: 150px;
+  }
+  
   .speaker-description { margin-bottom: 25px; }
   .speaker-collection { width: 90vw;
   margin: auto 5vw; }
   .speaker-card { margin-top: 30px; }
   .speaker-card, .speaker-width { width: 90vw; }
-  .hero-img-left { width: 150px; top: 100px;  }
-  .hero-img-right { width: 85px; bottom: -20px; right: 0px; }
+  
+  .hero-img-left {
+    width: 150px;
+    top: 100px;
+  }
+  .hero-img-right {
+    width: 85px;
+    bottom: -20px;
+    right: 0px;
+  }
 
-  h1 { font-size: 27px; line-height: 45px; }
-  h1 span.gradient { font-size: 32px; line-height: 40px; }
-  .hero .main-text { padding-top: 150px; }
-  .closing .message { justify-content: flex-start; min-height: auto; padding: 70px 0px 50px 0px; }
-.closing .message p { width: 60vw; font-size: 20px;  }
-.img-rightd { top: 0px; }
-.img-closing.img-right { top: -40px; width: 30vw; }
-.img-closing.img-left { top: -100px; width: 40vw; }
-.hero__cta { padding: 16px; }
-.closing .message button { padding: 16px 20px; }
+  h1 {
+    font-size: 27px;
+    line-height: 45px;
+  }
+  h1 span.gradient {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .hero .main-text {
+    padding-top: 150px;
+  }
+  .closing .message {
+    justify-content: flex-start;
+    min-height: auto;
+    padding: 70px 0px 50px 0px;
+  }
+  .closing .message p {
+    width: 60vw;
+    font-size: 20px;
+  }
+  .img-rightd {
+    top: 0px;
+  }
+  .img-closing.img-right {
+    top: -40px;
+    width: 30vw;
+  }
+  .img-closing.img-left {
+    top: -100px;
+    width: 40vw;
+  }
+  .hero__cta {
+    padding: 16px;
+  }
+  .closing .message button {
+    padding: 16px 20px;
+  }
 }
 
 @media screen and (max-width: 320px) {
-  .hero__nav svg { width: 150px; }
-  .hero__cta { padding: 10px; }
+  .hero__nav svg {
+    width: 150px;
+  }
+  .hero__cta {
+    padding: 10px;
+  }
 }
