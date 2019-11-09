@@ -608,6 +608,7 @@ section.speakers h2 { padding-left: 5vw; }
   .closing .message button {
     padding: 16px 20px;
   }
+  .gmap_canvas iframe, .gmap_canvas { width: 90vw; }
 }
 
 @media screen and (max-width: 320px) {
